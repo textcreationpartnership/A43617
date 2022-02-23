@@ -1,0 +1,672 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Curse ye Meroz, or, The fatal doom in a sermon preached in Guild-hall Chappel London, before the Right Honorable the Lord Mayor and Court of Aldermen, May the 9th 1680 / by Edmond Hickeringill ...</title>
+            <author>Hickeringill, Edmund, 1631-1708.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 102 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A43617</idno>
+            <idno type="STC">Wing H1803</idno>
+            <idno type="STC">ESTC R17523</idno>
+            <idno type="EEBO-CITATION">12210479</idno>
+            <idno type="OCLC">ocm 12210479</idno>
+            <idno type="VID">56298</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A43617)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 56298)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 919:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Curse ye Meroz, or, The fatal doom in a sermon preached in Guild-hall Chappel London, before the Right Honorable the Lord Mayor and Court of Aldermen, May the 9th 1680 / by Edmond Hickeringill ...</title>
+                  <author>Hickeringill, Edmund, 1631-1708.</author>
+               </titleStmt>
+               <extent>[8], 38 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.R. for J. Williams ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1680.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Judges V, 23 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-08</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2011-08</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:56298:1" rendition="simple:additions"/>
+            <p>
+               <hi>Curſe ye Meroz.</hi> OR THE FATAL DOOM. IN A SERMON Preached in <hi>Guild-hall-Chappel</hi> LONDON, BEFORE The Right Honorable the Lord Mayor and Court of Aldermen, <hi>May</hi> the 9<hi rend="sup">th</hi> 1680.</p>
+            <p>By EDMOND HICKERINGILL late Fellow of <hi>Gon<g ref="char:EOLhyphen"/>vil</hi> and <hi>Cajus</hi> Colledge in <hi>Cambridge,</hi> and Rector of the <hi>Rectory</hi> of <hi>All-Saints</hi> in <hi>Colcheſter.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. R.</hi> for <hi>J. Williams</hi> at the Sign of the <hi>Crown</hi> in St. <hi>Pauls-Church-yard.</hi> 1680.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:56298:2"/>
+            <pb facs="tcp:56298:2"/>
+            <head>To the Moſt Illuſtrious PRINCESS ELIZABETH DUTCHESS of ALBEMARLE, &amp;c.</head>
+            <opener>
+               <salute>May it pleaſe your Grace,</salute>
+            </opener>
+            <p>TO take this occaſion to Blazon and Pub<g ref="char:EOLhyphen"/>liſh your Virtues, would be an employ, as needleſs as his, that Lighted a Candle to the Sun: And if I ſhould here declare how much I am Obliged to your Grace, and how good an Opinion you have had of my Endeavours in this kind, Envy perhaps would Conſtrue it (in me) Ambition rather than Gratitude: And if by the Formality of a Dedication, I ſhould
+<pb facs="tcp:56298:3"/>thus engage you to Countenance, or perhaps bluſh for my eſcapes, it would not only be a Preſumption but a Trappan.</p>
+            <p>None of theſe were Motives to perſwade to this addreſs; but the Truth is, Religion in this Age is ſo much out of Faſhion amongſt the Men, (ſome of them at leaſt) looking upon all Reli<g ref="char:EOLhyphen"/>gion, but as the needleſs Parentheſis of Life; that if I take all occaſions to give your Grace opportunities to encourage any Loyal and Religi<g ref="char:EOLhyphen"/>ous attempts, 'tis the greateſt honour I can do you, or can be done to you.</p>
+            <p>For which cauſe (no doubt) St. <hi>John</hi> De<g ref="char:EOLhyphen"/>dicated one of his <hi>Epiſtles</hi> to the Elect Lady. And with the ſame, or the like methods, the Apoſtles did ſo Court the great Ladies in the Court of <hi>Rome,</hi> that they Proſelyted to Vir<g ref="char:EOLhyphen"/>tue and Chriſtianity, of Honourable Women not a few.</p>
+            <pb facs="tcp:56298:3"/>
+            <p> Nor can I better evidence my Devotion to your Grace, or more approve my own Judg<g ref="char:EOLhyphen"/>ment to the World, than (by this Dedicati<g ref="char:EOLhyphen"/>on) in making Choice of ſuch a <hi>Protecto<g ref="char:EOLhyphen"/>reſs</hi> to favour that Loyalty and Religion (that is Retrieved in this <hi>Sermon</hi> from a Text by the perverſe Interpretations of ſome Men) almost lost and forlorn.</p>
+            <p>Religion (I ſay) and Loyalty; (I put them together,) for they are Twins, that in our Chriſtian Kingdom, are born, and Live and Dye together.</p>
+            <p>
+               <gap reason="illegible: faint" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Man in <hi>England</hi> at this day can be <gap reason="illegible: faint" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Religious, that is not truly Loyal; nor any Man truly Loyal that is not truly Re<g ref="char:EOLhyphen"/>ligious: Not only, (I mean) in the Sence of that great and good <hi>German Emperour,</hi> that turned away his Prophane Servants with theſe words—<hi>How can he be faithful to me, that is not faithful to his God?</hi>
+               <pb facs="tcp:56298:4"/>But chiefly, becauſe true Loyalty, as well as true Religion, are nothing elſe but an Obedi<g ref="char:EOLhyphen"/>ence to God and the King, in the Obſervance of the Chriſtian Laws of the Land.</p>
+            <p>Any other account of Religion is Superſtiti<g ref="char:EOLhyphen"/>tious, and any other account of Loyalty is Fa<g ref="char:EOLhyphen"/>ctious or Paraſitical.</p>
+            <p>In our Age no <hi>Rebells</hi> ever diſturbed the Government, and <hi>England</hi>'s Peace, <gap reason="illegible: faint" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſuch as marcht in a Religious Dreſs, and <gap reason="illegible: faint" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>y Maſquerade; and therefore the moſt dange<g ref="char:EOLhyphen"/>rous. And though I cannot but have great Com<g ref="char:EOLhyphen"/>paſsion for miſguided Zeal, yet I have (ſome<g ref="char:EOLhyphen"/>times) in this following Sermon followed St. <hi>Paul</hi>'s advice (againſt my natural tenderneſs and inclination) in reproving them ſharply, and giving the Devil his due.</p>
+            <p>None was ſo mild and compaſsionate to Pub<g ref="char:EOLhyphen"/>licans and Sinners, as our Bleſſed Saviour, yet
+<pb facs="tcp:56298:4"/>when he had to do with Scribes, Phariſees and Hypocrites, he denounc't as many Woo's, as Verſes, againſt them, and called <hi>Judas</hi> the Traitour (plain) Devil.</p>
+            <p>But to enlarge this Epiſtle would but aggravate the trouble of this interruption, I ſhall therefore now (as I daily do) Conclude with my earneſt Prayers for the Temporal and Eternal Proſperity of you and yours, as the bounden Duty of</p>
+            <closer>
+               <salute>Illuſtrious Madam,</salute>
+               <signed>Your Grace's moſt Humble<lb/> and obliged Servant and<lb/> Chaplain, <hi>Edm. Hickeringill.</hi>
+               </signed>
+               <dateline>Colcheſter, <date>
+                     <hi>May 14.1680.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:56298:5"/>
+            <pb n="1" facs="tcp:56298:5"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Judges 5.23.</hi>
+                  </bibl>
+                  <p>Curſe ye <hi>Meroz</hi> (ſaid the Angel of the Lord) Curſe ye bitterly the Inhabitants thereof, becauſe they came not to the help of the Lord, to the help of the Lord againſt the Mighty.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">I</seg> Have choſen a Text, very ſeldom (if at all) inſiſted upon in theſe Times, and never be<g ref="char:EOLhyphen"/>fore by me at any time.</p>
+            <p>But yet about Forty years ago, this Text (I have heard) was the Common Theam in Pulpits, and Uſher'd in (as well as pro<g ref="char:EOLhyphen"/>moted) the late Bloody Civil Wars.</p>
+            <p>In this Text, ſome ſagacious men could find Horſe and Armes, and hence Raiſe and Muſter Battalia's againſt Soveraign Majeſty, nay, here they could find Commiſſions too to vouch the Quarrel.</p>
+            <p>And why ſhould this Text of Holy Writ now (like a piece of <hi>Apo<g ref="char:EOLhyphen"/>crypha</hi>) be laid aſide, Antiquated and out of Date? Shall this Por<g ref="char:EOLhyphen"/>tion of Holy Scripture never appear, but like thoſe ominous flames (call'd <hi>Caſtor</hi> and <hi>Pollux</hi> by Marriners) that ſometimes precede, but always preſage a Storm? Shall this Text of <hi>Curſe ye</hi> Meroz, &amp;c. never be handled, but (as a Sheet Anchor) never made uſe of but in a Streſs of Weather? I am reſolv'd to endeavor (whatever be the Conſequence) to bring again into Reputation this Text, <hi>Curſe ye</hi> Meroz, <hi>&amp;c.</hi>
+            </p>
+            <p>And becauſe this Text will direct me neceſſarily to Treat of no vulgar Truths, nor every days Diſcourſe, I will therefore for your ſakes and mine own (do what I never did before.) Read my Ser<g ref="char:EOLhyphen"/>mon upon this Text, <hi>Curſe ye</hi> Meroz, <hi>&amp;c.</hi>
+            </p>
+            <p>The true and genuine meaning whereof will appear if we enquire.
+<list>
+                  <item>1. What is meant by <hi>Meroz?</hi>
+                  </item>
+                  <item>2. What is meant by the help of the Lord?</item>
+                  <item>3. Why <hi>Meroz</hi> was accurſed?</item>
+                  <item>4. Why a good Angel, the Angel of the Lord did Curſe?</item>
+               </list>
+            </p>
+            <p>Is this the Language of a good Angel, or rather the Language of a ſtaring Hector, to Curſe and Damme? The Language of a
+<pb n="2" facs="tcp:56298:6"/>Popes Bull, to Anathematize, and Curſe? is this the Dialect of Heaven, or the Dialect of Hell? That the Fourth and laſt Quere, why the Angel of the Lord did Curſe?</p>
+            <p>Q. 1. Firſt, <hi>What is meant by</hi> Meroz?</p>
+            <p>
+               <hi>Anſ.</hi> 1. <hi>Meroz</hi> is a Name not found in any part of Scripture ex<g ref="char:EOLhyphen"/>cept here, but by the following words is imply'd, that <hi>Meroz</hi> was one of the Aſſociated Counties, the Inhabitants whereof were <hi>Iſra<g ref="char:EOLhyphen"/>elites,</hi> Curſed <hi>Iſraelites,</hi> Cowardly <hi>Iſraelites,</hi> a pack of Neuters at leaſt,
+<note place="margin">Judg 5.18</note> that— whilſt <hi>Zebulun</hi> and <hi>Naphtali</hi> were a People that (being good Subjects) Jeoparded their Lives unto the Death, in the High Places of the Field to help their Soveraign Magiſtrate <hi>(Deborah)</hi> againſt the Enemy; The Inhabitants of <hi>Meroz,</hi> either out of Cowardize, or Diſloyalty, or both, ſtaid at home, and would not ſtir a Foot, nor contribute Hand, nor Heart, nor their Purſes neither to Royal Aid, therefore Gods Angel does Anathematize and Curſe them.</p>
+            <p>Q. 2. Secondly, <hi>What is meant by the help of the Lord?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> 1. By the help of the Lord ſurely is meant the help of Rebels Aiding and Aſſiſting them againſt the Soveraign, at leaſt, men have been taught ſo, and made to believe it, and have ventur'd all their Eſtates, nay more, Body and Soul upon the truth on't.</p>
+            <p>If this be the true meaning of the Words, the Text is as fit for 1680 as it was for 1640. And we will not diſſemble the truth of it, but let it have its full Scope.</p>
+            <p>For this Text is part of the <hi>Epinicion,</hi> or Song for Victory obtain'd by <hi>Deborah</hi> the Queen or Judge of <hi>Iſrael</hi> (<hi>Judges</hi> 4.4. <hi>She Judged</hi> Iſrael <hi>at that Time</hi>) and <hi>Barak</hi> her Captain General. The Title of this Chapter, wherein the Text is, is—The Song of <hi>Deborah</hi> and <hi>Barak</hi>— after Victory obtain'd againſt the Queens Enemies, the Captain of whoſe Hoſt was wicked <hi>Siſera,</hi> who with a Mighty Army came to Fight againſt <hi>Deborah</hi> the Soveraign of the <hi>Iſraelites;</hi> of which her Sub<g ref="char:EOLhyphen"/>jects, ſome Fought for their Soveraign <hi>Deborah,</hi> as <hi>Zebulun</hi> and <hi>Naphtali,</hi> ſome would not Fight for their Soveraign, as <hi>Meroz;</hi> Therefore <hi>Curſe ye</hi> Meroz, <hi>ſaid the Angel of the Lord, Curſe ye bitter<g ref="char:EOLhyphen"/>ly the Inhabitants thereof, becauſe they came not to the help of the Lord,</hi> the help of their Soveraign, (there called) <hi>the help of the Lord againſt the Mighty</hi> Enemies of Soveraign Majeſty.</p>
+            <p>So that the help of the Lord (in this Text) is evidently the help
+<pb n="3" facs="tcp:56298:6"/>of <hi>Deborah,</hi> the help and aſſiſtance of the Soveraign Magiſtrate againſt the Enemy.</p>
+            <p>This is ſo plain and Evident from the Context, that nothing can be more Intelligible. Whence obſerve,
+<note place="margin">Doc.</note> that to help the Soveraign Magiſtrate againſt the Enemy, is to help God. Or thus, They that Fight not for their Soveraign, Fight not for God. And they that Fight againſt their Soveraign, Fight againſt God. Or, the Kings Enemy cannot be Gods Friend. Or, He that Honors not the King, Fears not God. Or thus, All Rebels and Diſloyal Perſons to their Soveraign, are Curſed Rebels, and Diſloyal to God.</p>
+            <p>Truth's ſo clearly deduced (without any wreſting) from this Text, as well as, throughout the whole Scripture Canonical, that we may well wonder that there could have been ſuch Pulpiteers, as to Cheat their Hearers with quite contrary Doctrines and Dedu<g ref="char:EOLhyphen"/>ctions from this Text, or ſuch eaſie Gulls amongſt their Auditors, that could be ſo groſly impos'd upon, and be juggled out of their Lives, their Money, their Plate, nay, (it is to be feared) their Souls are accurſed, if this Text be true, not only for refuſing to Aſſiſt their Soveraign (the Curſed Crime in the Text) but much more for reſiſting him even to Blood and their own Damnation, ſo eaſie are, and ſo Damnable too (many times) thoſe Juggling Tricks that Cheats the Vulgar.</p>
+            <p>Cheat the Vulgar? Alas! What is more Ordinary? But this was the moſt Groſs, moſt Palpable, and the moſt Fatal Cheat that ever was put upon them, and from the Holy Scripture wretchedly wreſted, and from the Pulpit too; Fatal to the People, Fatal to the King and Kingdom.</p>
+            <p>With this Text, that is the moſt Loyal Text in all the Bible, was the Kings Army rooted, our Bleſſed King Martyr'd and Murther'd, and the Kingdom Ruined.</p>
+            <p>Which may teach Soveraigns, by woful Experience, that if they let looſe the Reignes of Government, eſpecially in Eccleſiaſtical Affairs, if they cannot or will not reſtrain the Licenſe of the Pulpit and Pulpiteers, they looſe the beſt Flower of the Crown, and expoſe themſelves and their People to the wild Expoſitions and Harangues of every bold <hi>Expoſitor,</hi> and <hi>Boutifeau.</hi>
+            </p>
+            <p>Where by the way, note how neceſſary it is for a King, as to outward Adminiſtration, to keep the Key of <hi>David,</hi> that <hi>Openeth
+<pb n="4" facs="tcp:56298:7"/>and no man ſhutteth,
+<note place="margin">Iſa. 22.22.</note> and ſhutteth and no man openeth,</hi> and not to truſt the opening, the meaning, and Interpretations of Scripture, to his Adverſaries, or Rebells, or ſuch as he has no influence upon, whe<g ref="char:EOLhyphen"/>ther Pope or Presbyterian; Popery, or Foppery.</p>
+            <p>And have we not Laws enough, and ſtrong enough to bind the Bloody hands of both, and hinder their growth, if men have but ho<g ref="char:EOLhyphen"/>neſty and courage enough to put them in Execution?</p>
+            <p>And this Doctrine ſo apparent in the Text, that to help our So<g ref="char:EOLhyphen"/>vereign againſt his Enemies, is to help God; and not to help him, is to be lyable to the Curſe of God, is founded upon theſe two following Reaſons and infallible Arguments, which I ſhall place in Anſwer to the third Quere, why <hi>Meroz</hi> was accurſed?</p>
+            <p>Reaſ. 1ſt. Becauſe Diſloyalty and Rebellion againſt the Sove<g ref="char:EOLhyphen"/>raign Magiſtrate is a Sin of the ſame horrid nature with Diſloyalty and Rebellion againſt God himſelf: Nay, the Holy Apoſtle does not ſay they are like one another as ever they can look, but they are one and the ſame.
+<note place="margin">Rom. 13.2 Job. 35.6.7.8.</note> 
+               <hi>He that reſiſteth the Power reſiſteth the Ordinance of God, the Imperial Edict of God. For if thou Sinneſt, what doeſt thou againſt God?</hi> (<hi>ſaith</hi> Eliphaz) <hi>or if thy Tranſgreſſions be multiplyed, what doſt thou againſt him? If thou be righteous what giveſt thou him? or what receiveth he of thine hand? Thy wickedneſs may hurt a Man as thou art, and thy Righteouſneſs may profit the Son of Man.</hi>
+            </p>
+            <p>Upon this account <hi>Jehoiakim</hi> who rebelled againſt <hi>Nebuchadnezzar</hi> contrary to his Oath of Allegiance and Covenant (2 <hi>Chron.</hi> 16.13.) with an Infidel King, and is ſaid to have broken Gods Cove<g ref="char:EOLhyphen"/>nant, <hi>Ezekiel</hi> 17.19. by breaking the Covenant made to that Hea<g ref="char:EOLhyphen"/>then King, whoſe ſworn vaſſal he was, as appears alſo <hi>Ezekiel</hi> 17.13.18. Murmuring againſt <hi>Moſes</hi> the Chief Magiſtrate is called tempting of God. 1 <hi>Cor.</hi> 9.10. And the People, in their Confeſ<g ref="char:EOLhyphen"/>ſion of the Mutiny, ſay as much <hi>Numb.</hi> 21.7. <hi>We have ſinned, for we have ſp<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ken againſt the Lord and againſt thee,</hi> where note, that ſpeaking againſt <hi>Moſes</hi> is called ſpeaking againſt God; even as, the Royal Ayd in the Text, is called the help of the Lord.</p>
+            <p>Is not the People's murmurings againſt <hi>Moſes</hi> called murmuring againſt God? <hi>Exod.</hi> 16.2. The Lord heareth your murmurings which ye murmur againſt him, and what are we? your murmurings are not againſt us, but againſt the Lord; which muſt be taken im<g ref="char:EOLhyphen"/>plicitely, for expreſly they murmured only againſt the Chief Ma<g ref="char:EOLhyphen"/>giſtrate
+<pb n="5" facs="tcp:56298:7" rendition="simple:additions"/>and Chief Prieſt; <hi>Moſes</hi> and <hi>Aaron. Exod.</hi> 16.2.</p>
+            <p>Nay, God himſelf calls the rejecting of <hi>Samuel,</hi> (the Chief Ma<g ref="char:EOLhyphen"/>giſtrate) the rejecting of the God of <hi>Iſrael.</hi> 1. <hi>Sam.</hi> 8.7.
+<note place="margin">1. Theſ. 4.8</note> The Spirit of Loyalty which moved <hi>Amaſa</hi> to help the King is called the Spirit of God. 1. <hi>Chron.</hi> 21.18. From whence then came that Spirit that moved <hi>Sheba</hi> to Rebellion? and made him therefore a Son of <hi>Belial?</hi>
+               <note place="margin">2. Cor. 2 15.</note> 2. <hi>Sam.</hi> 20.1. What Communion has Chriſt with <hi>Belial?</hi>
+            </p>
+            <p>If then the help of the Soveraign be the help of the Lord, as it is ſtyled in this Text by the Spirit of God that Nick-names nothing, then who do they help that ayd Rebells againſt their Sovereign? The Devil without doubt: And how meritorious is it in the ſight of Heaven to help our Sovereign upon Earth; the Bleſſing of God goes along with theſe, whilſt the other are Curſed by God and his Holy Angel, as <hi>Meroz</hi> was Curſed <hi>Meroz,</hi> Diſloyal <hi>Meroz.</hi>
+            </p>
+            <p>Thus the Indictment had been rightly drawn up againſt <hi>Naboth,</hi>
+               <note place="margin">1. K. 21.10</note> for Blaſpheming God and the King, if but the latter clauſe could have been prov'd.</p>
+            <p>The Counſel, in their addreſſes to the Emperors made uſe of their juſt Title—<hi>Sacra Veſtigia</hi> without Scruple; and that humble con<g ref="char:EOLhyphen"/>feſſion of the Prodigal. <hi>Luke</hi> 15.18. Implyes that Heaven was offended with his diſobedience to his Father; <hi>I have ſinned against Heaven and before thee</hi> (that is) in thy ſight, but againſt Heaven, againſt God is the Sin Committed.</p>
+            <p>When therefore a Temptation to Rebellion or diſloyalty to the King our Sovereign Maſter does aſſault thee (as <hi>Joſeph</hi>'s Miſtreſs did him to diſloyalty againſt his Maſter) quaſh it, in the ſame Heaven<g ref="char:EOLhyphen"/>ly Language that <hi>Joſeph</hi> did,
+<note place="margin">Gen. 39.9.</note> 
+               <hi>How can I do this great Wickedneſs and Sin againſt God?</hi>
+            </p>
+            <p>Reaſ. 2. The ſecond Reaſon is, becauſe the Puniſhment of Diſloy<g ref="char:EOLhyphen"/>alty and Rebellion againſt the King is as horrid and grievous, as the Puniſhment of Diſloyalty and Rebellion againſt God himſelf Imme<g ref="char:EOLhyphen"/>diately, namely, Eternall Damnation.
+<note place="margin">Rom. 13.2 1. Sam. 26.9.</note> They that reſiſt <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (in plain Engliſh) ſhall be damn'd; <hi>For who can ſtretch forth his hand againſt the Lords Anointed and be Guiltleſs?</hi> (that is) no Jury empanell'd on this Inqueſt can acquit him, or however he may eſ<g ref="char:EOLhyphen"/>cape by an Act of Grace or Oblivion, at the Bar, <hi>in foro civili,</hi> yet caſt he muſt be <hi>in Foro Coeli</hi> at God's Tribunal, into utter Darkneſs,
+<pb n="6" facs="tcp:56298:8"/>except he repent unfeignedly of that Helliſh deed of Darkneſs. All which Juſtifies from bold Cenſures, that juſt decree of the King. <hi>Ezra</hi> 7.26. <hi>Whoſoever will not do the Law of thy God and the Law of the King, let Judgment be Executed ſpeedily upon him, whether it be unto death, or to Baniſhment, or to confiſcation of goods, or to Impriſonment.</hi>
+            </p>
+            <p>But, in caſe the Sovereign Happen to be a Child, as was King <hi>Joſiah,</hi> (may ſome well ſay) or a Mad-man, as was <hi>Charles</hi> the 6. the <hi>French</hi> King; or a Tyrant, as was King <hi>Rehoboam;</hi> or an Here<g ref="char:EOLhyphen"/>tick, an Infidel, or an Apoſtate, as was <hi>Julian,</hi> to obey and help ſuch a Sovereign Magiſtrate: Is that to help the Lord, (as the Text Phraſes it) or is it not rather to Fight againſt God? In ſuch caſes, how ought Subjects to demean themſelves in their Obedience?</p>
+            <p>This is a Queſtion and a caſe of Conſcience ſo naturally ariſing from the Text, that no diſcourſe upon it can be pertinent and home to the purpoſe, that does not give a full and plain anſwer to the ſame.</p>
+            <p>And yet I am ſenſible it is a queſtion as carefully as neceſſarily to be anſwered; nor is he fit to come in a Pulpit, that through Ig<g ref="char:EOLhyphen"/>norance knows not how, or through Puſillanimity dares not, or through flattery will not, or through careleſsneſs neglects to direct the People in their obedience in this Particular: As for Arbitrary Government and Popery, though we have all the reaſons in the World to believe that it is morally impoſſible, that ever any Engliſh Magiſtrate had any ſuch deſign in our days of ſetting them up, and promoting them; yet that's not material; Fears and Jealouſies of Popery and Arbitrary Government ſhall as effectually do the buſi<g ref="char:EOLhyphen"/>neſs of thoſe <hi>Boutifeau</hi>'s and <hi>Demagogues,</hi> that love to ſcare the People out of their Wits, till they run a Madding to Tumult, Mu<g ref="char:EOLhyphen"/>tiny and Rebellion, to their Ruine; like thoſe that in danger of having the Ship Founder under them, leap Overboard for fear of Drowning.</p>
+            <p>Hence come all the miſchiefs of Tumults, Treaſon and Rebellion, The People are either not taught their due Obedience, as Chriſtians and <hi>Engliſh-men;</hi> or mis-taught, as they have been Fatally, and from this Text.</p>
+            <p>And therefore I anſwer plainly and with all due Submiſſion, that I would ſooner have my Tongue pull'd out, than perſwade the Sub<g ref="char:EOLhyphen"/>jects
+<pb n="7" facs="tcp:56298:8"/>of <hi>England</hi> to active Obedience to ſuch a Word, as <hi>Conſtantius</hi> the Emperor threatned his Biſhops with, ſaying, <hi>quod ego volo, pro Canone ſit,</hi> my Will is my Law.</p>
+            <p>A King of <hi>England,</hi> whatever Opinion he is of in his Private Sen<g ref="char:EOLhyphen"/>timents, cannot ſpeak but in the Voice of the Law of <hi>England,</hi> and he is therefore called our Liege-Lord, and we his Liege People: And whoever urges any other obedience but according to Law, or payes any other Obedience than according to Law, both of them are Criminals, and ſhall be puniſht for the ſame by the Kings Laws, and the Kings Miniſters and Juſtices.</p>
+            <p>And yet I ſay in the Words of <hi>Tertullian;</hi> and his odd <hi>Latin,</hi>
+               <note place="margin">Tertul. ad Scapul.</note> as he uſually expreſſes himſelf—<hi>Colimus Imperatorem ut à Deo Secundum, &amp; quicquid eſt à Deo conſecutum, ſolo Deo minorem.</hi>
+            </p>
+            <p>The King himſelf is accountable for his Errors to none but God, his Perſonal errors; but as King and in his Politick capacity, it is impoſſible he ſhould have any Errors; for a King of <hi>England</hi> can do no wrong; why, becauſe he cannot ſpeak but in the Voyce of the Law, and if any Injunction come out contrary to Law, both they that obey, and they that promote ſhall be puniſh't by the King, by the Kings Law.</p>
+            <p>And therefore it is impoſſible, as our Laws are that any King of <hi>England</hi> can be a Popiſh King; for whatever opinion prevails in his private ſentiments, He ſpeaks and Acts only in and by the Laws of the Land. And our Laws and Religion are ſo incorporated, that Prayers and Sacraments and Ordination of Biſhops, Prieſts, and Deacons <hi>&amp;c.</hi> are all Divine and all Statute-Law; And he that goes to ſeparate and put aſunder the ſame which God and the Law-ma<g ref="char:EOLhyphen"/>kers have thus joyn'd together, may, if he be a <hi>Sampſon,</hi> poſſibly pull down the Fabrick, but it will fall upon his own head, and bu<g ref="char:EOLhyphen"/>ry himſelf in the Rubbiſh. And therefore that God that preſerv'd the Reform'd Religion in <hi>France,</hi> in deſpight of all the Maſſacres and Bloody deſigns of <hi>Charles</hi> 9. and <hi>Hen.</hi> 3. the former Brother dying weltring in his own Blood, and the latter, after one of his Bloody Fryars had given him his Death's Wound and Mortal Stab, con<g ref="char:EOLhyphen"/>feſſing and ſaying in his dying Pangs, and laſt words, learn of me, that Piety is a Duty of man unto God, over which worldly force hath no power.</p>
+            <p>And ſhall not the ſame God more probably defend and protect
+<pb n="8" facs="tcp:56298:9"/>the Reformed Religion in <hi>England,</hi> already become our eſtabliſhed Law as well as our Religion? Oh, ye of little Faith?</p>
+            <p>And note, that as the Perſecutors of the reformed Religion in <hi>France,</hi> never got any thing thereby but Puniſhment and miſchief; ſo neither did the Proteſtants there ever get any thing by Arms, but Blood and Ruin.</p>
+            <p>Tyranny always ruins Tyrants, and Rebellion always ruins Re<g ref="char:EOLhyphen"/>bells; read all Hiſtories, Sacred and Prophane, and you will find that all Rebell's like <hi>Sheba</hi> and <hi>Abſalom</hi> come at long run to the Block, or the Gallows; or to Repentance.</p>
+            <p>King <hi>Rehoboam</hi> had ſo little wit as to threaten to be a Tyrant, and what got he by it? He loſt Ten of his Twelve Tribes.</p>
+            <p>Thoſe Ten Rebell Tribes, what got they? a new Tyrant, and an Uſurper, a new Religion and a falſe Fanatical Non-ſenſical Reli<g ref="char:EOLhyphen"/>gion, by that wicked <hi>Jeroboam,</hi> that made <hi>Iſrael</hi> to ſin, and then within a little while they were all carried away captive, the Lord knows whither, for no Hiſtory can tell us what is become of them to this day; And this they got, even ruin, the certain Portion and lot of all Rebells; whilſt loyal <hi>Judah</hi> and <hi>Benjamin</hi> continu'd a King<g ref="char:EOLhyphen"/>dom govern'd by their own Laws and Religion (except in the Pa<g ref="char:EOLhyphen"/>rentheſis of 70 years Captivity) until the Blood of our Saviour (which according to their wiſh, fell heavily upon them unto this day, and made them <hi>Cain</hi>'s and Vagabonds upon the Face of the Earth.</p>
+            <p>All this ſhews us the Truth of the Old Religion of the Primitive Chriſtians, (in ſpight of our new <hi>Presbyterian</hi> Church-Militant,) whoſe Weapons were only Prayers and Tears, with which they de<g ref="char:EOLhyphen"/>fended themſelves, and wearyed out, and at laſt overcame their Per<g ref="char:EOLhyphen"/>ſecutors and Tyrants.</p>
+            <p>And as this is true Chriſtian Piety, ſo we in <hi>England</hi> find it the beſt Policy by Fatal Lectures of woful Experience. People were ſo alarum'd from the Pulpits with ſuch Texts as this, and ſo frighted with Jealouſies and Fears of Arbitrary Government and Popery; that (like men in a Shipwrack as I ſaid before that leap into the Sea for fear of Drowning) we gulf'd our ſelves into more Arbi<g ref="char:EOLhyphen"/>trary Government, Tyranny and Popery, or Foppery and Phanati<g ref="char:EOLhyphen"/>ciſme, the Spawn of Popery, then could poſſibly have betided us, if the worſt had come that men did fear, or were perſwaded to fear.</p>
+            <pb n="9" facs="tcp:56298:9" rendition="simple:additions"/>
+            <p> How were our Miſeries in the Late Civil Wars Prologu'd with a noiſe of Arbitrary Government in the Caſe of Ship-Money? a Tax impos'd without a Parliament, for Remedy whereof, it came to Armes, and Blood and Ruine; and inſtead of one Arbitrary Tax (as they call'd it) by the King without a Parliament in a Caſe of urgent neceſſity, to defend the Kingdom againſt Forreign Foes; we underwent a Thouſand Arbitrary Taxes by a Parliament without a King, (which is at leaſt equally Illegal) and Millions of Men and Treaſure conſum'd, was not this Remedy worſe than the Diſeaſe?</p>
+            <p>And was there ever any Tyrant heard of in any Age or Nation, that ever Ruin'd and waſted his People at that Bloody Rate, that we waſted and ruin'd one another, and all this becauſe nothing would pleaſe men but New Religions, and New Preachers, and New Ex<g ref="char:EOLhyphen"/>poſitions of Texts, ſuch as this is, but explain'd quite contrary to Truth and the Old Chriſtian Religion, whoſe Weapons againſt Au<g ref="char:EOLhyphen"/>thority and Soveraign Majeſty, are only (I ſay again) Prayers and Tears. And ſhall not God hear his Peoples Cryes and Groanings? Yes, ſurely, read all Hiſtories, and you will find that as Rebels, ſo Ty<g ref="char:EOLhyphen"/>rants ſeldom come to the Grave in Peace.</p>
+            <q>
+               <l>—<hi>Sine coede &amp; ſanguine</hi>
+               </l>
+               <l>
+                  <hi>Nemo</hi>—</l>
+               <l>—<hi>Nec ſiccâ morte Tyranni.</hi>
+               </l>
+            </q>
+            <p>
+               <hi>Rehoboam</hi> would play the Tyrant and loſt his Subjects by it, <hi>Dionyſius</hi> the Tyrant of <hi>Syracuſa,</hi> thought he had enſur'd his King<g ref="char:EOLhyphen"/>dom of <hi>Sicily</hi> to him with Chains of Adamant, and he was glad to turn School-Maſter in <hi>Italy</hi> in Concluſion, and get a Paultry living as a Tyrannical Paedagogue, with inſulting over Boyes.</p>
+            <p>The time would fail me to tell of the diſmal ends of ſuch <hi>Nero</hi>'s and <hi>Diocleſian</hi>'s, and I am weary of this Tragical Diſcourſe; and will briefly come to a more pleaſant Improvement of the Text, con<g ref="char:EOLhyphen"/>cluding the Stated Queſtion thus: If the King happen to be a Child, a Mad-man, a Papiſt, or an Infidel; for his Perſonal Infirmities he ſhall anſwer to God alone, but his Dominion and our Obedience, are circumciſed within the Limits of the Laws of the Land, the only Rule of his Soveraignty and our Obedience; and all other Doctrine of Obedience is Paraſitical or Prophane.</p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ſe</hi> 1. If the help of our Soveraign Lord the King, be the help of the Lord God, and if Royal Aid be Divine Aid, then who do
+<pb n="10" facs="tcp:56298:10"/>they help that Fight againſt and reſiſt their Sovereign? Who are they for? For the Devil ſure: There is no middle way, no favorable <hi>Limbus,</hi> no Purgatory that can Intervene, but they that help not Heaven, they help Hell; they that help not the Lord, help the Devil: As do all thoſe that are ſo Diſloyal, Lazy, or Cowardly, that neg<g ref="char:EOLhyphen"/>lect to help their Soveraign, when endanger'd or diſtreſt by Ene<g ref="char:EOLhyphen"/>mies; much more do thoſe help the Devil that Rebel and Tumul<g ref="char:EOLhyphen"/>tuouſly reſiſt and Fight againſt their Soveraign. If the Spirit of Loy<g ref="char:EOLhyphen"/>alty be the Spirit of God, as the Holy Ghoſt calls it, (as aforeſaid) then what Spirit is that which Reſiſteth God, by Reſiſting the So<g ref="char:EOLhyphen"/>veraign Magiſtrate who is called God, but the Spirit of Antichriſt, and the Spirit of the Devil?</p>
+            <p>Not the Spirit of the Devil in his own Black Helliſh likeneſs and Apparition. (that would affright rather than invite men to be his Followers) But a Devil in the likeneſs of <hi>Samuel,</hi> in the likeneſs of a Prophet, a Rebel with his Cloak on, the Old Cloak of Religion and the Cauſe, the Cauſe. The Devil was great in <hi>Abſalom,</hi> to make him a Rebel againſt his King and Father, but he was a Crafty Politick Devil withall,
+<note place="margin">2 Sam. 15.</note> to make him pretend Juſtice, and Courteſie, and Humility, to gain the Populace, and above all Arts, Religion, let me go and pay my Vows which I have Vowed to the Lord in <hi>Hebron,</hi> (ſaith he) the Place of Conventicle, and the Place of Ran<g ref="char:EOLhyphen"/>devouz and Parade alſo.</p>
+            <q>
+               <l>
+                  <hi>Finge Deum</hi> (Belial!) <hi>quoties vis fallere plebem.</hi>
+               </l>
+            </q>
+            <p>And ſuch Devils in the likeneſs of a Prophet, I ſay, in the like<g ref="char:EOLhyphen"/>neſs of Religion, is the fierceſt, the Bloodyeſt, the moſt Antichri<g ref="char:EOLhyphen"/>ſtian, and Devilliſh of all Devils.</p>
+            <p>Did ever man read of more Bloody Maſſacres than under the Conduct of the Papiſts, Covenanted together in <hi>France,</hi> by the Name of the Holy League? Did ever any thing Parallel it, except thoſe Helliſh contrivances, and Bloody Butcheries in this Iſland, under the favor and Influence of the ſolemn League and Covenant.</p>
+            <p>We read in the Holy Go pel, of a kind of Devils that cannot be Caſt out but by Prayer and Faſting; but this kind of Devil or Spirit of Antichriſt that I am Treating of, gets Life and ſtrength by Prayer and Faſting.</p>
+            <p>Variety of opinions there are, the Man of Sin: Spoken of 2. <hi>Thef.</hi> 2. the Son of Perdition. Be this Spirit of Perdition or Man of Sin
+<pb n="11" facs="tcp:56298:10"/>who it will) I am ſure. 1ſt. It is a religious, a pretendedly Re<g ref="char:EOLhyphen"/>ligious Spirit, becauſe it ſits in the Temple of God. verſ. 4.</p>
+            <p>Secondly, It is a Rebellious Spirit againſt the Sovereign Magi<g ref="char:EOLhyphen"/>ſtrate, oppoſing and exalting himſelf above all that is called God (that is) the Magiſtrate. So that, thoſe that under color of Re<g ref="char:EOLhyphen"/>ligion, and upon pretence of Religion, Fight and Kill and Slay, and break the peace.</p>
+            <p>As in our Age have the Papiſts, eſpecially the Jeſuits, and the Fanaticks, eſpecially the rigid Presbyterian and Fifth-Monarchy-Men, we are ſure they are Men of Sin and Sons of Perdition oppo<g ref="char:EOLhyphen"/>ſing the Magiſtrate for God's ſake, or in pretence of Religion.</p>
+            <p>Religion certainly, true Religion is the greateſt happineſs that God gives to Mortal Men, thereby we converſe with Heaven upon Earth, thereby Men live on Earth like the Glorified Saints and An<g ref="char:EOLhyphen"/>gels in Heaven, <hi>thereby comes Glory to God on High, on Earth Peace, good Will towards Men:</hi> And as true Religion is the beſt thing, ſo it is fa<g ref="char:EOLhyphen"/>cile and eaſie to learn and practice; Fear God and Honor the King, Love thy Neighbor includes the whole duty of Man.</p>
+            <p>But the Hypocriſie of Religion, the Face without the Heart of Religion, it requires ſuch a deal of dreſſes and paintings, controver<g ref="char:EOLhyphen"/>ſies, diſputes, diſſimulations, frauds and pretences, that it had been much better for the good and Peace of Mankind to have had no Religion then ſuch a perplext, tragical, troubleſome and fatal thing as ſome have made it, and ſtill endeavor to make it.</p>
+            <p>The firſt Quarrel and Bloodſhed that ever was in the World was about Religion, therefore <hi>Cain</hi> ſlew his Brother <hi>Abel,</hi> and became the great Example of Murthering our Brethren upon a Religious ſcore to all Holy and Solemn Leaguers and Covenanters, both of Pa<g ref="char:EOLhyphen"/>piſts in <hi>France,</hi> and Proteſtants in great Britain.</p>
+            <p>We have then here a clear Evidence, who is the Man of Sin and Son of Perdition, namely, every Spirit that ſits in the Temple of God, and oppoſes and exalts it ſelf above the Magiſtrate, who is cal<g ref="char:EOLhyphen"/>led God.</p>
+            <p>And that Spirit, that Devilliſh Anti-chriſtian Spirit divides it ſelf, (like two lines drawn from the circumference to the center, that ſeem to oppoſe one another, yet both aime at the Center) into the Spirit of Popery, and the Spirit of Foppery.</p>
+            <p>The Former under pretence of Religion exalts the <hi>Mitre</hi> a<g ref="char:EOLhyphen"/>bove
+<pb n="12" facs="tcp:56298:11"/>the <hi>Crown,</hi> and the <hi>Croſier</hi> above the <hi>Scepter;</hi> the latter plumes himſelf in his Almighty Pulpit, whilſt the Magiſtrate truckles under him upon the Stool of Repentance; both of them oppoſe and exalt themſelves above all that is called God; both of them will without ſcruple do evil that good may come thereof, Equivocate, Lye, Plunder, Sequeſter, and Behead for Gods-ſake, and the cauſes-ſake; both of them agree in that Jeſuitical tenent, that Dominion is found<g ref="char:EOLhyphen"/>ed in grace; both of them Plot and contrive Miſchief where and when they have ſway, but always Miſchief as much as in them lyes; both of them have for many years been the great Diſturbers of the Peace of all Chriſtendome, as well as of the Peace of <hi>England;</hi> and tell me but of any Maſſacre, or Bloody Wars and Stratagem's a<g ref="char:EOLhyphen"/>gainſt the Magiſtrate, any Treaſon's and Rebellions, but what was carried on either by Papiſts and Jeſuits, or by Presbyterians and Fa<g ref="char:EOLhyphen"/>naticks, in the Memory of Man, and i'le be content to abide the Bloody Inquiſition of the one, and undergo the Fates of the Arch-Biſhops and Metropolitan's of <hi>England</hi> and <hi>Scotland, Canterbury</hi> and St. <hi>Andrews</hi> Murther'd by the other.</p>
+            <p>Both are Bejeſuited and Breath nothing but Blood and Ruin, for Gods-ſake and Gods-cauſe; and yet they are ſeverally diſtinguiſh't and diſguiz'd; one wears a Fryars weed, the other a ſhort ſynodi<g ref="char:EOLhyphen"/>cal Jump;
+<note place="margin">Jam. 4.1.</note> one wear's his Crown ſhaven, the other only crop't; So that, <hi>whence comes wars and Fightings amongst us?</hi> From the Church, the Temple of God? And ſuch as ſit in the Temple of God? Comes it from the conclave, the Synod, or the Pulpit? Yes, it did God knows, when Men, Men of Sin, and Sons of Perdition with ſuch a Text as this did make the Sacred Pulpit a Pulpit Drum to beat a Call thereon, and an Alarum to Arms and War, to Rebellion and Blood? But ſuch wild expoſitions and Harangues to bejuggle and beguile the ſilly Rabble came from the Luſts that Warr'd in their Members, the Luſt of Ambition, the Luſt of Covetouſneſs, after the Kings Lands, the Biſhops Lands, the Stately Houſes and Mannors of the Loyal Lords and Gentlemen: And this, all this and more came from the Pulpit.</p>
+            <p>From this Principle and Spirit of Antichriſt, or Rebellion under the Cloak of Religion did Pope <hi>Boniface</hi> exalted in Pride ſet his in<g ref="char:EOLhyphen"/>ſulting Toe upon the Neck of <hi>Frederick</hi> the Emperor, repeating with a ſurly grace that of the Pſalmiſt,
+<note place="margin">Pſa. 18.40.</note> 
+               <hi>Thou haſt given me the Necks of
+<pb n="13" facs="tcp:56298:11"/>mine Enemies,</hi> and Pſal. 91.13.
+<note place="margin">Pſa. 91.13.</note> 
+               <hi>Thou ſhalt tread upon the Lion and Adder, the Young Lion and Dragon ſhalt thou trample under Feet.</hi>
+            </p>
+            <p>And juſt ſo did the Fanaticks (who are minor Popes of a later Edition) from this Principle wreſt another place of the Pſalmiſt, to juſtifie the Murther of our late Sovereign of Bleſſed Memory— namely, <hi>To bind their Kings with Chains,
+<note place="margin">Pſa. 149.9<gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                  </note> and their Nobles with Fet<g ref="char:EOLhyphen"/>ters of Iron, to Execute upon them the Judgment written, this Honor of all the Saints.</hi>
+            </p>
+            <p>Then that of <hi>Iſa.</hi> 2.2. has done great Service, namely,
+<note place="margin">Iſa. 2.2.</note> 
+               <hi>The Moun<g ref="char:EOLhyphen"/>tain of the Lords Houſe ſhall be eſtabliſhed upon the top of the Moun<g ref="char:EOLhyphen"/>tains, and ſhall be exalted above the Hills,</hi> &amp;c. I'le warrant there has been old quarrelling and ſcolding, diſputing and calling names, (Sons of Whores, Sons of the Whore of <hi>Babylon,</hi> Whore of <hi>Rome;</hi>) old Fighting and Wrangling, Parrying and Fencing, Thruſting and Scrambling, whoſe Party ſhould get up on and be this Mountain that ſhall be exalted upon the top of all other Mountains; Ambition, and Covetouſneſs are (of all Luſts) never weary, never tyred, eſpe<g ref="char:EOLhyphen"/>cially when Pride and Coverouſneſs wears the Vizard of Religion, then the Riches of <hi>Pluto</hi> and Hell cannot glut them; and nothing but the ambition of <hi>Lucifer</hi> (to be equal if not above their Maker) can ſatisfie their Inſatiable Pride.</p>
+            <p>Thus,
+<note place="margin">Vid. Alph de Verg. p. 123.</note> Pope <hi>Boniface</hi> Leſſon'd and Tutor'd <hi>Phillip</hi> (Sirnamed the <hi>Fair,</hi>) King of <hi>France, volumus te ſcire in temporali &amp; ſpirituali no<g ref="char:EOLhyphen"/>bis ſubjacere;</hi> you muſt know, Sir, that in Temporals as well as Spi<g ref="char:EOLhyphen"/>rituals you are our Subject.</p>
+            <p>Yet the <hi>French</hi> Army made bold to Plunder Pope <hi>Boniface</hi> 8th. of more Treaſure then all the Revenue of the Kings of the whole Earth amounted to in one Year,
+<note place="margin">Heildfield Hiſtor.</note> a Sum by far exceeding the Sum of Two Hundred and Fifty Tun of Gold, which Pope <hi>John</hi> 22. left to his Heirs.</p>
+            <p>All the wealth of the Indies is theirs, if the King that owes thoſe golden Mines be Prieſt-Ridden: But the <hi>French</hi> not only of late (through the Sorboniſts Doctrine) but alſo in former ages been ve<g ref="char:EOLhyphen"/>ry dull and unapt to learn the Doctrine of the Popes Supremacy, and therefore the ſaid <hi>French</hi> King <hi>Philip</hi> the <hi>Fair,</hi> in his Letter to Pope <hi>Boniface</hi> in anſwer to his ſaid impudent as well as imprudent claim, begins his Letter, with <hi>Sciat fatuitas veſtra</hi> — inſtead of <hi>Sciat ſanctitas veſtra;</hi> that is in Engliſh, I give your Fop-ſhip
+<pb n="14" facs="tcp:56298:12"/>to underſtand inſtead of — I give your Popeſhip to under<g ref="char:EOLhyphen"/>ſtand.</p>
+            <p>When <hi>Hen.</hi> 2. King of <hi>England</hi> was whipt and went to <hi>Tyburn</hi> in expiation of <hi>Beckets</hi> Death, <hi>Thomas</hi> of <hi>Canterbury,</hi> a proud Sawcy Prieſt and Rebel, the King took every blow in Dudgeon, and grum<g ref="char:EOLhyphen"/>bled ſomewhat to himſelf in a menacing way, whereupon the Popes legate ſtop't his Mouth preſently with theſe words — <hi>Domine — noli minari</hi> &amp;c. Sir, never threaten us who are Retainers to a Court that Lords it juſtly over Kings and Emperors.</p>
+            <p>'Tis endleſs to tell Stories of this Nature;
+<note place="margin">See <hi>Gerſon</hi> Chancel<g ref="char:EOLhyphen"/>or of <hi>Pa<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>is de po<g ref="char:EOLhyphen"/>eſtate Ec<g ref="char:EOLhyphen"/>leſ conſid.</hi> 
+                  <gap reason="illegible: page cropped" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>2. part 3.</note> their practiſe and de<g ref="char:EOLhyphen"/>ſigns are contain'd in theſe Verſes.</p>
+            <q>
+               <l>
+                  <hi>Sedes Summa Petri, quae Paſtoralis honoris</hi>
+               </l>
+               <l>
+                  <hi>Facta caput Mundi, quicquid non poſſidet armis</hi>
+               </l>
+               <l>
+                  <hi>Religione tenet</hi> —</l>
+            </q>
+            <p>That is, the Pope, like the Presbyterian, does his buſineſs with the word, or the Sword; if one will not do, the other ſhall, or they'le fill the Nations with Blood and Wounds.</p>
+            <p>Yet, God be thank't, the Devil and thoſe Roaring Lyons, roar<g ref="char:EOLhyphen"/>ing out their Anathema's, their Curſes and Excommunications, are not always Rampant, nor does more harm than the Curſe of Pope <hi>Julius</hi> the ſecond, did the French-men who rooted his Army (at the Battle of <hi>Ravenna:</hi>
+               <note place="margin">
+                  <hi>Fran à vi<g ref="char:EOLhyphen"/>toriá</hi> (a Popiſh Fryar) <hi>de <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ot Eccleſ. <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>elict.</hi> Sect. <gap reason="illegible: page cropped" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. p. 39. See <hi>Occu<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>nen.</hi> in <hi>Rom.</hi> in <hi>Rom. ep. <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ap.</hi> 1. <hi>&amp; Theophy<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ct. <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>id. Blaſp <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>n gloſſâ <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>e majori<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ate &amp; o<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: page cropped" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>edientiâ.</hi>
+               </note>) The news whereof coming to his Holineſs, whilſt at his Beads by the Fire-ſide, made him in a paſſion to con<g ref="char:EOLhyphen"/>clude his Prayers with a Curſe in theſe very words — <hi>Sit ergo gallus in nomine Diabolorum.</hi> All the Devils in Hell take the French<g ref="char:EOLhyphen"/>man.</p>
+            <p>I met with one honeſt Fryar, <hi>Francis à Victoriâ,</hi> who confeſſes that Popes were not always ſo ambitious, and that their pretended Supremacy over all perſons and in all cauſes was but of late uſurp't. <hi>Gloſſatores hoc dominum dedêrunt Papae, cum ipfi eſſent Pauperes, rebus &amp; Doctrinâ:</hi> That this Supremacy and Sovereignty was given to the Pope by Expoſitors that were as poor as proud, with Purſes as empty as their Pates, and who were as bare of Crowns, as their Crowns were bare and Shaven.</p>
+            <p>Hence we have cauſe to think that Pope <hi>Pius</hi> the Fifth, (who Excommunicated our Queen <hi>Elizabeth Anno</hi> 1569.) was in Earneſt when he ſaid —</p>
+            <q>
+               <pb n="15" facs="tcp:56298:12"/> 
+               <hi>Cum eſſem Religioſus, ſperabam benè de ſalute meâ, Cardinalis factus extimui, Pontifex creatus paenè deſpero.</hi>
+            </q>
+            <p>Which I'le Engliſh thus.</p>
+            <q>
+               <l>
+                  <hi>When I was firſt made Prieſt, my Soul did well,</hi>
+               </l>
+               <l>
+                  <hi>But How, when Cardinal, I cannot tell;</hi>
+               </l>
+               <l>
+                  <hi>Now I am Pope, ſurly my Rome is Hell.</hi>
+               </l>
+            </q>
+            <p>
+               <hi>Optimi putantur Pontifices</hi> (ſaith <hi>Papyrius Maſſonius,</hi> who was a Popiſh Prieſt) <hi>ſi vel leniter mali, vel minus boni quam caeteri Mortales eſſe ſolent.</hi>
+            </p>
+            <p>Methinks (ſaith he) we ſpeed well, if our Popes be but indiffe<g ref="char:EOLhyphen"/>rently bad, or but a little worſe than other Mortals.</p>
+            <p>And the ſame, ſay I, of all that are of the ſaid Antichriſtian Spirit, that trouble and diſquiet the Magiſtrate, and their Neighbors, put<g ref="char:EOLhyphen"/>ting them in Fears with their Numbers, and their darings, their Petitions, Subſcriptions, like Muſter Rolls.</p>
+            <p>Methinks we ſpeed well if they be but indifferently bad, or but a little worſe than <hi>Pagans, Indians, Turks</hi> and <hi>Jews;</hi> if they were as harmleſs as <hi>Indians</hi> and <hi>Inſidels;</hi> would tell no more Lyes, nor carry on no more Bloody Deſigns than <hi>Pagans,</hi> truly for my part I think we ſhould be very happy in them to what we now are.</p>
+            <p>An <hi>Indian</hi> or <hi>Pagan,</hi> for his Life, could not think of ſuch Pride and Inſolence, as that wherewith Pope <hi>Paul</hi> the Fifth, Treated <hi>Dandalus</hi> the <hi>Venetian</hi> Ambaſſador, when he made him Crouch under the Board, and eat with the Dogs the Crums that fell from their Maſters Table.</p>
+            <p>And yet this Bravery, though more Inſolent, yet was leſs Impious, then that Blaſphemous Salutation, which His Holyneſs gladly accepted from the <hi>Sicilian</hi> Ambaſſador, that came to beg his Peace, with <hi>Domine, Deus Papa miſerere Noſtrum; Lord have Mercy upon us, Lord God Pope</hi> — And again, <hi>Oh Lamb of God, that takeſt away the Sins of the World, Grant us thy Peace.</hi>
+            </p>
+            <p>Thus <hi>Chriſtoper Marcellus</hi> Complemented the Pope, in the Second Councel of <hi>Lateran; Tu es alter Deus in terris;</hi> And with like Reli<g ref="char:EOLhyphen"/>gion, did the Old <hi>Romaniſts</hi> Erect an Altar in <hi>Rome</hi> to <hi>Simon Magus</hi>
+               <pb n="16" facs="tcp:56298:13"/>with this Inſcription, Simoni <hi>Sancto Deo, In honor of</hi> Simon <hi>the Hely God.</hi>
+            </p>
+            <p>Not more Atheiſtical than theſe was the Painters Motto under the Effigies of <hi>Alexander</hi> the Great—<hi>Jupiter aſſere tibi coelum, ego mihi aſſerui terram.</hi>
+            </p>
+            <p>But enough of theſe Inſolencies and Blaſphemies, yet not a jot too much in theſe days, when ſuch Deſigns are on Foot, to make the Crown ſtoop to the Mitre.</p>
+            <p>But for the Crown to Vaile and Lowre to the Stool of Repentance, Oh abominable and Vile! Foraſmuch as 'tis much more Honor to be foyl'd by a Lyon, than to be baffled by an Aſs.</p>
+            <p>This is nothing elſe but to be Perſecuted with Vermine, and run the Fate of that <hi>German</hi> Biſhop, that was devoured and Hunted to Death with Rats and Mice.</p>
+            <p>This is to undergo the Martyrdom of the Primitive Chriſtians, that were put in Bears-skins and Baited to Death with Dogs.</p>
+            <p>The Pope, how bad ſoever his Deſigns be, yet he is a Temporal Prince, of great Territories and Dominions, if you reckon only the Countries called the St. <hi>Peters</hi> Patrimony; whether he has got them <hi>per fas</hi> or <hi>nefas,</hi> whether by Dint of the Sword, or Cheat of the Word, it comes all to one Reckoning; yet ſtill he is a Prince of Ancient <hi>Grandeur,</hi> and the leſs diſhonor to be Subject to him.</p>
+            <p>But for a Prince to ſtoop to <hi>Geneva</hi>-Upſtarts, that have nothing Eminent but Ears and Mouth, is the vileſt of Subjection, and ſets a value upon <hi>Turkiſh</hi> Slavery in Compariſon of this; Foraſmuch as we expect better things from them. Not that I commend our King <hi>John</hi> of <hi>England</hi> for profering himſelf and his Kingdom, Vaſ<g ref="char:EOLhyphen"/>ſels to the King of <hi>Morocco,</hi> an Infidel; rather than endure the Tyranny of Religious Men, and the Pope; forc't by <hi>Pandolphus</hi> the Popes Legate, to reſign his Crown to the Papal Chair, which the proud Prelate kept it from him ſeveral days, and then diſdainfully ſetting his Foot upon it and the Money with which he bought his peace, reſtor'd upon heavy terms the Crown, yet certainly ſuch Barbarous uſage from Chriſtians, pretended Chriſtians makes a great, though not a ſufficient Apology for him. Graſs they ſay never grows where the great Turk ſets his Foot; I'me ſure <hi>Math. Paris,</hi> an Hiſtorian of good credit, ſays that King <hi>John</hi> us'd to ſay, that when he became the Pope's Footſtool, he never throve after,
+<pb n="17" facs="tcp:56298:13"/>to uſe his own words—<hi>Postquam, (ut dixi) me &amp; mea Regna Ro<g ref="char:EOLhyphen"/>manae ſubjeci Eccleſiae, nulla mihi proſpera, omnia contraria advenêrunt.</hi> Anno 1213. <hi>de Regione liberâ Ancellam fecit per chartum lugubrem, ſaith</hi> Mathew Paris; by a lamentable Charter King <hi>John</hi> made <hi>England</hi> a Bond-ſlave (to the Pope) that before was Free; But his Son King <hi>Hen.</hi> 3. had it ſhortly after repeal'd, even in times of Popery, by Act of Parliament.</p>
+            <p>Read all our Chronicles ſince <hi>William</hi> the Conqueror, and tell me, if ever there were Wars in <hi>England</hi> but the Clergy had a great hand in them.</p>
+            <p>
+               <hi>Odo</hi> Biſhop of <hi>Bayeux</hi> furniſhed <hi>William</hi> the Conqueror with Forty Tall Ships to invade <hi>England,</hi> and the Pope to encourage him ſent him a Banner of the Church, an <hi>Agnus</hi> of Gold, and one of the Hairs of St. <hi>Peter;</hi> ſuch another Preſent as that <hi>Phoenix</hi> Feather, which the Pope ſent to the Earl of <hi>Tyrone</hi> the Iriſh Rebell.</p>
+            <p>Whoſe Mouths and Lungs blew up the Fire of contention, in our late Civil Broiles, but the Presbyterians and Covenanters?</p>
+            <p>Surely Kings will be warn'd by ſuch Fatal Examples, from truſt<g ref="char:EOLhyphen"/>ing their Supremacy, the Choiceſt Flower of the Crown, out of their own keeping, either to Popes or Presbyters, that will not be ſubject to them; I mean, the expoſition of Scriptures, and Power of the Keys; For all Engliſh Biſhops, and Miniſters, that are not the Kings Miniſters, are Emiſſaries and Miniſters of the Devil or the Pope, at leaſt, grand Impoſtors, Enthuſiaſts, and Cheats.</p>
+            <p>For at the upſhot all men's Faith muſt bottom upon ſome humane Authority or other; except what the Prophets and Apoſtles had, which was more properly knowledge than Faith; but our Faith and all Faith ever did and ever muſt reſt in humane Authority; Indeed all true Faith is the Gift of God, as all other Gifts and Graces are, for without Gods ſpecial Grace, no man can believe the trueſt hu<g ref="char:EOLhyphen"/>mane Authority or Church upon Earth to be true.</p>
+            <p>But ſtill, I ſay, all but Enthuſiaſts and Papiſts who believe (the former at <hi>Random</hi> and at all adventures, and they know not where<g ref="char:EOLhyphen"/>fore; the latter by implicit Faith) I ſay all others that are true Believers, their Faith is through Gods grace grounded upon ſome humane Authority or other.</p>
+            <p>When therefore any Man believes his Duty to God and the King, he muſt acquieſce either in Enthuſiaſme, or Popery, or in the voice
+<pb n="18" facs="tcp:56298:14"/>of God, which voice of God is infallibly to us (only) in the Ho<g ref="char:EOLhyphen"/>ly Scriptures expounded and declared in the Voice of the Laws, our Sacred and Chriſtian Laws, ſo admirably contriv'd from the Old and New Teſtament; comprehending all our duty to God, to our ſelves, and to our Neighbors, that we are the Envy of other Nations, happy Engliſh-men, if they knew their own happineſs, more happy in our Laws then in our Land and Scituation, being an Iſland with<g ref="char:EOLhyphen"/>out Paralel in the whole World, exempt and free from the Arbi<g ref="char:EOLhyphen"/>trary Government, Tyranny, Oppreſſion, Deluſion and Blind De<g ref="char:EOLhyphen"/>votion that other Nations groan Under.</p>
+            <p>And if it were not that the Wiſedom of our Anceſtors knowing their own Felicities, had not made an Act that no Alien ſhould pur<g ref="char:EOLhyphen"/>chaſe or inherit Lands in <hi>England,</hi> the goodneſs of our Laws and Religion, as well as the conveniency of our Scituation and Soil, had expos'd us to be overſtock't with ſtrangers without Room ſufficient for the happy Natives.</p>
+            <p>But ſome will hear object and ſay, what if the King and his Laws ſhould command us to do ſomewhat that (at leaſt in our opinion) is contrary to Gods Law, to obey, aſſiſt and help him herein, can this poſſibly be called the help of the Lord, or meant in this Text; as for Inſtance, there is a Law that no Miniſter who does not con<g ref="char:EOLhyphen"/>form, ſhall not Preach within Five Miles of a Corporation Town or City, or within Five Miles of the Benefice, he left and loſt through Non-Conformity; the Law and the King ſays do not Preach there; but (ſay they) wo be to us if we Preach not the Goſpel, for we cannot but ſpeak the things that we have ſeen and heard, and whe<g ref="char:EOLhyphen"/>ther it be right to obey you rather than God, Judge ye, as ſaid St. <hi>Peter</hi> and St. <hi>John.</hi>
+            </p>
+            <p>This is no wild chymerical ſuppoſal and objection of my own making, but it is the known and common Apology of the Non-con<g ref="char:EOLhyphen"/>formiſts, to juſtifie their diſobedience, and vouch their confidence in ſtanding it out, and bidding Defyance to the King and his Laws; nor is it leſs uſeful then neceſſary to give a plain and full anſwer to this objection, under which all Diſobedience, Diſloyalty and oppo<g ref="char:EOLhyphen"/>ſition of Authority does lurk and ſhelter to this Day.</p>
+            <p>The King and his Laws give the word of Command, bids them March and be gone at your Peril; but, they rejoyn, we are Preachers of the Goſpel,
+<note place="margin">1 Cor 9 16</note> neceſſity is laid upon us, and wo be to us if we Preach
+<pb n="19" facs="tcp:56298:14"/>not the Goſpel, as ſaid St. <hi>Paul;
+<note place="margin">Acts 4.19.20.</note> and whether it be right in the ſight of God, to hearken unto you more than unto God, judge ye. For we can<g ref="char:EOLhyphen"/>not but ſpeak the things which we have ſeen and heard.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> 1. This is an excuſe that abominably aggravates the Crime to all knowing Chriſtians; Oh Impudence, and Impoſture not to be named amongſt ſober and modeſt Men and Chriſtians!</p>
+            <p>What? ſhall theſe Wretches that truckle and drudge for a few Pence and a gathering amongſt the Silly Men and Women, ſhall theſe Preachers that with ſuch a Text as this have againſt the plain and eaſie ſence wreſted the ſame to the ruin of their Auditors, Bo<g ref="char:EOLhyphen"/>dy, Soul and Eſtate? ſhall theſe <hi>Poſci nummia,</hi> theſe <hi>Crumeni mulgae,</hi> theſe Pick-pockets, and Petticoat Preachers, that lead Captive ſilly Women compare themſelves with St. <hi>Peter</hi> and St. <hi>John</hi> and St. <hi>Paul? That which was from the beginning, which we have heard,
+<note place="margin">1 Jo. 1.1. 3.</note> which we have ſeen with our eyes, which we have looked upon, and our hands have handled of the word of Life, That which we have ſeen and heard, declare we unto you.</hi> Saith St. <hi>John.</hi>
+            </p>
+            <p>Now no Man can in truth and in ſober fence, without Raving, Cheat, Impoſture, and palpable Enthuſiaſme, ſay theſe words at this day, and apply the ſame to himſelf, as that which he hath ſeen and heard, and handled.</p>
+            <p>St. <hi>John,</hi> St. <hi>Peter,</hi> and the reſt of the Apoſtles, nay, St. <hi>Paul</hi> in a Viſion and an Apoſtle and witneſs, as well as the reſt, though born out of due time, ſaw and witneſſed what they ſaw, namely, our Saviour's Reſurrection; the great Seal and Confirmation of the truth of the Goſpel, and wo be to them if they had not told the World what they ſaw, and heard, and felt, and handled, and knew, that we might have Faith, the evidence of things not ſeen, but be<g ref="char:EOLhyphen"/>lieving their Teſtimony, and Witneſs; through the Grace of God e<g ref="char:EOLhyphen"/>nabling us to believe, what ſuch good Men and true did depoſe upon their own Knowledg.</p>
+            <p>Faith is the Life of a Chriſtian, but how few underſtand it. To ſay with the Phariſees that we know that God ſpake by <hi>Moſes;</hi> 'tis falſe, we do not know it, nor they did not know it: It had been modeſtly and more truly ſaid, we believe that God ſpake by <hi>Moſes;</hi>
+               <note place="margin">Jo. 9.29.</note> for Knowledge is the Evidence of things ſeen, Faith the Evidence of things not ſeen; Knowledge, is the Grace and Glory of the Church Triumphant; Faith, is the Grace and Glory of the Church
+<pb n="20" facs="tcp:56298:15"/>Militant; and therefore let us not like thoſe ſilly conceited Phari<g ref="char:EOLhyphen"/>ſees, or good Mr. <hi>Calvin,</hi> ſay we know a thing to be true, when we only believe it to be ſo:</p>
+            <p>For <hi>Calvin</hi> like thoſe Phariſees and the Presbyterians that follow him, defines Faith. 2. <hi>lib Inſtitut.</hi> 16. <hi>Sect.</hi> 7. a ſtedfaſt and an aſ<g ref="char:EOLhyphen"/>ſured knowledge of Gods kindneſs, <hi>&amp;c,</hi> Why ſhould Men cheat the World and themſelves too, by pretending a Religion that God never made, nor does not require.</p>
+            <p>God requir'd no more of the <hi>Jews</hi> than that they ſhould believe <hi>Moſes</hi> and the Prophets, handed to them by Tradition and Humane Authority; Ay, but the Phariſees, the Puritan Party of the <hi>Jews,</hi> they muſt have a ſurer Card for their Religion then other <hi>Jews,</hi> and therefore they were not content with Faith, though the Prophet <hi>Habakkuk</hi> had told them that the juſt ſhould live by it,
+<note place="margin">Hab. 2.4.</note> no, they muſt have more Religion and a better ground for Religion then the other <hi>Jews,</hi> or then God required, or did expect, (which was Faith only); And would make the World believe that (as if they had been as old as the firſt Mutineers and Ambitious <hi>Puritans, Corah, Dathan</hi> and <hi>Abiram,</hi> and had ſeen <hi>Moſes</hi> Face to ſhine like the Face of an Angel when he came from ſpeaking with God in the mount); they do not only by Tradition of their Fathers, believe; no, but they knew that God ſpake by <hi>Moſes.</hi>
+            </p>
+            <p>Mr. <hi>Calvin</hi> (I confeſs for him and his followers) that he was forc't to give a Definition of Faith contrary to that in <hi>Heb.</hi> 11.1. for fear the Papiſts had run him a ground.</p>
+            <p>For if he believed Chriſt and the Goſpel upon humane Autho<g ref="char:EOLhyphen"/>rity, or the Authority of the Popiſh Church, which he renounc't, he knew not well how to anſwer the renouncing the Tradition of that Church, without alſo renouncing <hi>Jeſus Chriſt</hi> and his Goſpel; therefore (which he ſhould not need) he was glad to define Faith to be a ſtedfaſt and an aſſured knowledge of Gods kindneſs <hi>&amp;c.</hi> and this by a certain witneſs of the Spirit within a Man:</p>
+            <p>By which ſecret perſwaſion, if he means Gods Grace to make a Man believe Humane Authority, Chriſtian and Humane Tradition and Laws, whereby we believe the truth of the Holy Scripture, he is in the right; but he is evidently out of his Story in calling this Faith, an aſſured Knowledge: For alas! the beſt of us, except we Lye, and Cheat, and Vapor, as thoſe <hi>Puritan</hi> Phariſees did, we muſt
+<pb n="21" facs="tcp:56298:15"/>ſay with the Apoſtle, we ſee but in part, as in a glaſs Darkly, and not with ſtedfaſt and aſſured knowledge as the Saints Triumphant do, and as did the Apoſtles who ſaw and knew our Bleſſed Jeſus and Saviour in the Fleſh.</p>
+            <p>But hence, comes all the miſchief, from this Vapor, and Lye, in making our Faith, juſt like St. <hi>Thomas</hi> his, whoſe ſeeing was be<g ref="char:EOLhyphen"/>lieving, and the reſt of the Apoſtles; what ever was true of the A<g ref="char:EOLhyphen"/>poſtles, muſt be true of us, which is an abominable Cheat and Im<g ref="char:EOLhyphen"/>poſture.</p>
+            <p>They were Witneſſes of Chriſts Reſurrection, we only tell what they ſaid, or did Witneſs; at the ſecond or third hand? ſaid I, no at the Thouſand'th hand, and at long run, by the Tradition of the Chriſtian Church and Laws of the Land; he that pretends other ground for his Faith, either believes he knows not wherefore, and is a Fool, or Enthuſiaſt, or Fanatick, which is all one, and a Cheat and Impoſtor, or elſe is a Papiſt, and has an Implicite Faith in the Church of <hi>Rome;</hi> or elſe, by doing Miracles as the Apoſtles did, can and muſt give a Demonſtration of the Spirit and of Power. In the Name of God, what would theſe Diſturbers of Man-kind be at? Here's ado with their Religion, their Religion, and there's not one of them knows where he got it, except from the Church of <hi>England,</hi> or the Church of <hi>Rome:</hi> And yet they diſclaim both theſe; and conſequent<g ref="char:EOLhyphen"/>ly, can demonſtrate nothing, nor rationally convince any Man of the Truth of their Faith, except by their own ſecret perſwaſion, which (though it may be of God) yet they cannot ſhew and prove but that it may be a Lye, a Cheat, and from the Father of Lyes.</p>
+            <p>Are they Ordain'd to Preach the Goſpel? Let us ſee their Com<g ref="char:EOLhyphen"/>miſſion and Ordination.</p>
+            <p>They anſwer, they are Ordain'd by them that were Ordain'd by them, that were Ordain'd by thoſe that were Ordain'd by the Papiſts, <hi>&amp;c.</hi> I knew whether they would come at long Run.</p>
+            <p>Nor can they juſtifie to the World, that that Engliſh Miniſter of Gods word, that is not the Kings Miniſter Ordain'd according to the Sacred and Chriſtian Laws of <hi>England,</hi> is any other then a Mi<g ref="char:EOLhyphen"/>niſter of the Pope or the Devil; either a Papiſt, or an Enthuſi<g ref="char:EOLhyphen"/>aſt, and poſſeſt with the Spirit of Popery, or the Spirit of Fop<g ref="char:EOLhyphen"/>pery.
+<pb n="22" facs="tcp:56298:16"/>Religion? true Religion, our Saviour ſays, like a Tree is known by the Fruits; conſult all Hiſtories, antient and modern, view the pre<g ref="char:EOLhyphen"/>ſent poſture of Affairs; if ever this Hundred Years there ever was any Rebellion, Maſſacre, Tumults or Treaſons, Blood Rapine and Murder, but either Papiſt or Fanatick, or both had the great hand in it.</p>
+            <p>To look no further back then the Reign of King <hi>James;</hi> who de<g ref="char:EOLhyphen"/>thron'd his Mother? and made a Slave and property of him in his Infancy, but that Bloody <hi>Knox, Buchanan,</hi> and the reſt of that <hi>Puri<g ref="char:EOLhyphen"/>tan</hi> Presbyterian brood? by woful experience he tells his Son, our late Martyr'd Sovereign in his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. That under pretence of Religion he ſhould find (Alas! alas! He did find it by ſad experi<g ref="char:EOLhyphen"/>ence) no ſuch Barbarous and Bloody Villains in the World.</p>
+            <p>When King <hi>James</hi> came into <hi>England,</hi> they ſtill made him weary of his Life, and the Papiſts on the other hand endeavor'd to take away his Life, by the <hi>Gunpowder-Treaſon.</hi>
+            </p>
+            <p>But, Bleſſed be God, unſucceſsfully; all his Reign; but what the Plots, the Popiſh Plots could not accompliſh againſt his Son, the Presbyterian Plots did perfect, Crowning their Villany with the Blood and ruin of the Kingdom, bringing the Bleſſed King to the Bloody Scaffold, and our Gracious Sovereign to the more Ignominious Stool of Repentance.</p>
+            <p>And is this your Religion? where did they learn it? not from God, from Holy Scripture; nor from this Text, but from the De<g ref="char:EOLhyphen"/>vil, who was a Murderer from the beginning, and a Lyar, (like theſe his Children) and the Father of Lyes.</p>
+            <p>Theſe things are plain and palpable, and had not now been re<g ref="char:EOLhyphen"/>membred but that Men tread the ſame ſteps, follow the ſame me<g ref="char:EOLhyphen"/>thods; may we not Faſt and Pray? (ſay they) ſad, oh ſad! may we not Preach? wo be to us if we do not Preach the Goſpel, and wo be to you, good People, if we do not Preach; as if the Goſpel were confin'd and Monopoliz'd to a Crew, that can ſhow no Au<g ref="char:EOLhyphen"/>thority, no Commiſſion, no Call, no Warrant for what they do; except from the Pope and Jeſuits, who I fear have a great Influence among them.</p>
+            <p>The King, and his Laws Ordain and conſtitutes in <hi>England</hi> the only true Chriſtian Biſhops, Prieſts and Deacons, as he does the only true Judges and Juſtices of the Peace; and he may deprive all of them
+<pb n="23" facs="tcp:56298:16"/>equally. And therefore if they cannot juſtifie there Ordination and Commiſſion, their Warrant and their Call, in an Ordinary and or<g ref="char:EOLhyphen"/>derly way; nor yet by Miracles in an extraordinary way, let them no more ſo idly, ſo impudently and ſo vainly apply the Apoſtle's ſayings to themſelves, but contrarily, wo be to them if they Preach the Goſpel, without ſufficient, Call, Warrant, Ordination and Law<g ref="char:EOLhyphen"/>ful Authority.</p>
+            <p>
+               <hi>Pilate</hi> rationally and honeſtly ſubjoyn'd to the cry of the Rabble, Crucifie him, Crucifie him? Why? What evil hath he done? They could tell none, but cryed out the more, Crucifie him, Crucifie him.</p>
+            <p>I ſhould be as Fooliſh and Irrational, if I ſhould decry and ſilence theſe Preachers, if I could not Anſwer that Queſtion, What Evil have they done? I'le Anſwer it with another, What Evil have they not done?</p>
+            <p>Did the People Riſe in Rebellion, till theſe Phanatick Preachers Rowz'd them from ſuch Texts as this? Alas! People generally would be glad to be quiet, and follow their buſineſs till Sunday come, and then theſe Preachers ſet them agog, and fright them out of their Wits with Fears and Jealouſies of Popery, and Arbitrary Govern<g ref="char:EOLhyphen"/>ment, and I know not what Forgeries of their own making.</p>
+            <p>If there was not a Papiſt in <hi>England,</hi> (as I wiſh there were not) yet they would fright the People with Fears of Popery, From whence? From <hi>France.</hi>
+            </p>
+            <p>If there were not one Papiſt in <hi>France,</hi> yet ſtill theſe <hi>Boutifeau</hi>'s would affright the Rabble with Fears from <hi>Italy</hi> or <hi>Spain;</hi> or if not from thence, with Fears and Jealouſies of ſome Popiſhly affected amongſt our ſelves; that the Sheet Anchor, thats an Engine (Popiſhly affected) allways ready to do the buſineſs at a dead lift, and Low Water, when all other hopes are fruſtrate and deſperate.</p>
+            <p>Let any Mutinous Contrivance or Petition be (to ſtrike terror to the Government) to be Subſcribed by Numbers, though theſe Preachers, and theſe Conventiclers, differ and diſſent from one ano<g ref="char:EOLhyphen"/>ther, one Sect againſt the other, even to Death, yet like <hi>Herod</hi> and <hi>Pilate</hi> they ſhall joyn in Miſchief, and unanimouſly as one man Confederate againſt the Peace and tranquillity of Chriſt and his Church, the Common Enemy.</p>
+            <p>If there be but Two or Three Phanaticks in a Pariſh, obſerve it, they ſhall make more a noiſe, more a Diſturbance, more a do in
+<pb n="24" facs="tcp:56298:17"/>the ſame then all the Reſt, they would do all, and always do ill. Let the Magiſtrate reſtrain their daring Conventicles here and there, (for it is but here and there if any be reſtrain'd) Oh, how the Country Rings of Perſecution, Perſecution!</p>
+            <p>Let the Magiſtrate connive and wink at them, and look through his Fingers, and make as if he did not ſee them, Why? What then? Why then they ſhould be humbly Thankful.</p>
+            <p>No, No, Humility and Thankfulneſs are Graces not to be found in the Holy League and Covenant, no, they grow more Petulant, and ſay of this merciful Magiſtrate, God has put a Hook in his Noſe,
+<note place="margin">Iſ. 37.39.</note> as he did in <hi>Senacherib</hi>'s, and a Bridle in his Lips.</p>
+            <p>So that a man knows not how to pleaſe them, but we muſt ſay of them as <hi>Solomon</hi> ſayes of his Fool, <hi>Prov.</hi> 29.9. <hi>If a Wiſe</hi> (Magi<g ref="char:EOLhyphen"/>ſtrate) <hi>contend with a Fooliſh man, whether he rage or Laugh, there is no reſt.</hi> For whether they rage at the Magiſtrate for putting the Laws in Execution, or whether they Laugh at him for neglecting, ſtill they are reſtleſs and unquiet. They are a Plague and Diſquiet to themſelves and all the Kingdome, which they have all moſt ru<g ref="char:EOLhyphen"/>in'd once, and themſelves too, which had not now been remembred but that the ſame men, the ſame Principles, the ſame Methods to embroyl us, are again on Foot.</p>
+            <p>Bleſs us, Good God! What is Religion, if this be Religion? And what is Religion good for, if theſe be the Fruits? What? Shall Re<g ref="char:EOLhyphen"/>ligion be good for nothing but to make us like Cocks of the Game, which are good for nothing but to Fight? Or like <hi>Salamanders,</hi> to live no where ſo well as in the Fire of Contention? Or <hi>Pirrhus</hi> like to delight in War?</p>
+            <p>If theſe be the ſecrets and Myſteries of their Religion, let every good man ſay,
+<note place="margin">Gen. 49.6, 5, 7.</note> (as <hi>Jacob</hi> of his Bloody Sons.) <hi>Oh my Soul, come not thou into their ſecrets, unto their Aſſembly, mine Honor, be not thou united, Inſtruments of Cruelty are in their Habitations. Curſed be their anger,
+<note place="margin">
+                     <hi>Rex bomi<g ref="char:EOLhyphen"/>num Hiſpa<g ref="char:EOLhyphen"/>nus, Aſino<g ref="char:EOLhyphen"/>rum Gallus Diaboloru<g ref="char:cmbAbbrStroke">̄</g> Anglus, Regu<g ref="char:cmbAbbrStroke">̄</g> ego. Max Imp. Dor. in Syn.</hi>
+                  </note> for it was fierce; and their Wrath, for it was Cruel.</hi>
+            </p>
+            <p>Time was when <hi>Regnum Angliae</hi> was called <hi>Regnum Angelorum;</hi> but theſe Diſturbers would (verifie the Diverb of the Emperor <hi>Max<g ref="char:EOLhyphen"/>imilian</hi> the Second, and) make it <hi>Regnum Diabolorum.</hi>
+            </p>
+            <p>
+               <hi>Omnium Provinciarum prima publicitus Chriſti nomen Recêpit Anglia,</hi> ſaith <hi>Sabellicus, Regnante Lucio,</hi> ſaith <hi>Euſebius, England</hi> received the Chriſtian Faith, <hi>Anno</hi> 44. by <hi>Simon Zelotes,</hi> ſaith <hi>Dorothaeus, Octob.</hi> 28.
+<pb n="25" facs="tcp:56298:17"/>
+               <hi>Imperatore Claudio</hi> &amp;c. <hi>Baronius,</hi> All agree that <hi>England</hi> was the firſt Chriſtian Kingdom, and happy might we yet be if not diſquie<g ref="char:EOLhyphen"/>ted by this Man of Sin and Sons of Perdition, the Spirit of Anti<g ref="char:EOLhyphen"/>chriſt, namely, the Spirit of Popery and the Spirit of Foppery.</p>
+            <p>And both of them have ſeen their beſt days, becauſe though both of them yet ſet in the Temple of God, (both Papiſt and Fanatick, the ſpawn of a Jeſuit,) yet the Cloven-foot is diſcovered by the moſt of Mankind that have any eyes or underſtanding.</p>
+            <p>A Man might, in the days of Yore, with a Knapſack full of Par<g ref="char:EOLhyphen"/>don's and Indulgences under the Seal of the Fiſher, have fill'd it in one day with good Money for them.</p>
+            <p>But now a Pardon-ſeller may walk over all <hi>Italy,</hi> and cry Indulgences, Indulgences, Pardon's, come buy, and ſcarce get Money to pay for his Supper; and if into <hi>Germany</hi> or <hi>France</hi> he Travels over the <hi>Alpes,</hi> 'tis not worth the while, all his Pack will ſcarce buy him a pair of new Shooes, why? I told you, the cheat is diſcover'd, the Cloven-foot is apparent, though this Anti-chriſtian and Devilliſh Spirit ſit in the Temple of God. What did this Spirit of Anti-Chriſt do then? what? but that Satan always does when he appears as an Angel of Light; if he be diſcovered, he ſhifts himſelf and appears in another ſhape, but ſtill with the ſame Black Helliſh and Devilliſh Deſign, ſeeking whom he may devour.</p>
+            <p>So that from the Spirit of Popery he Metamorphos'd himſelf into the Spirit of Foppery; and inſtead of the old Cheat of Popery, he Plays the ſame game with the new cheat of Sects and Foppery, and gain'd wonderfully at firſt thereby.</p>
+            <p>Rebellion, and Murder, and Treaſon, and Miſchief; that's the Principle, Foundation, and Main Deſign of Hell; but how to make Mortals (ſo much againſt Nature, and humane kind,) to perpe<g ref="char:EOLhyphen"/>trate ſuch Helliſh Facts, there's the craft.</p>
+            <p>Why, Religion, not true Religion, but the Hypocriſie, the Face of Religion, the Ape of Religion ſhall Play the Beaſt, and make Men Play the Beaſts, nay, be more Brutiſh than the Beaſts, to one another.</p>
+            <p>
+               <hi>Cain</hi> had never kill'd <hi>Abel,</hi> as I ſaid before, but for this Devilliſh Religion; <hi>Abſalom</hi> could never have Rebell'd, nor got a party a<g ref="char:EOLhyphen"/>gainſt his Father, and King but for this Devilliſh pretence of Reli<g ref="char:EOLhyphen"/>gion, and Juſtice.</p>
+            <pb n="26" facs="tcp:56298:18"/>
+            <p> 
+               <hi>Jeroboam</hi> could never have uſurp't the Crown but for his Devilliſh new Religion, an eaſie and cheap Religion, that would ſave the Peoples Purſes and their Legs too, from a tedious and chargeable long Journey to <hi>Jeruſalem,</hi> when the buſineſs was done more clever<g ref="char:EOLhyphen"/>ly by a couple of <hi>Calves</hi> in <hi>Dan</hi> and <hi>Bethel.</hi>
+            </p>
+            <p>Inſtances of this Nature are endleſs, to come nearer home; a new, new, Religion; a new, new light, freſh and new (at leaſt an old Hereſie new broach't) in the Spirit of Foppery did the Buſi<g ref="char:EOLhyphen"/>neſs, the Devilliſh buſineſs of Murder, Blood, Ruin and Treaſon in the late Civil Wars, when the Spirit of Popery had run its race and run it ſelf out of Breath, and off its Legs.</p>
+            <p>In Seven Years the Spirit of Popery could ſcarce get Seven Pro<g ref="char:EOLhyphen"/>ſelytes, whereas a new light, a new Sect, a new expoſition of Holy Scripture, like that of this Text, ſhould fetch in Proſelytes by ſhoales; nay, the Fiſhers could not throw out their Netts ſo faſt, as the Gudgeons came gaping and willing to be taken, though to their own deſtruction.</p>
+            <p>But alas! alas! even this Cheat is alſo quite diſcovered, I won<g ref="char:EOLhyphen"/>der into what Shape this Spirit of Foppery will next appear, for the Devil hath no great ſucceſs with it at this day, no more, than with the Spirit of Popery.</p>
+            <p>A Holder-forth may Yawle and Yarne, Snivle and Whine, Thump and Bawl, 'till his Lungs and his Heart ake, and yet neither make open hearted nor open handed their cloſe-fiſted Diſciples: Nay, he ſhall now turn up the white of his Eyes, and play as many tricks as <hi>Hocus Pocus</hi> at a fair, and yet not get ſo much Money at Night as a Common and Profane <hi>Hocus.</hi>
+            </p>
+            <p>But inſtead of giving them any thing, Men are grown to ſubtle, and the cheat ſo ſtale, that when they begin their tricks, and they hear them cant, Men are apt to clap their hands upon their Pockets, as when Gypſies are near them: And know the meaning and aime of the Jugler, as (at long run) they did, of a Long-Parliament Faſt, when every Boy could thereby Propheſie the Enſuing Tax.</p>
+            <p>And ſuch Villain, Murderers, and Traytors have appear'd in the Likeneſs of this Spirit of Foppery, that worſe did never appear in the Spirit of Popery: You may wink and chuſe; a <hi>Bravo</hi> in <hi>Spain,</hi> a <hi>Bandito,</hi> a High-way-man Kill Men and Rob for Money's ſake; ſo do thoſe Murderers and Traytors and Rebells under the Cloak of
+<pb n="27" facs="tcp:56298:18"/>Religion, (in the Spirit or guize of Popery and Foppery) all this is for Moneys ſake, though the Vizard pretends for God's ſake.</p>
+            <p>A Rebel's a Rebel, and a Trayters a Traytor, and a Robber's a Robber, though he Rob in a Fryar's weed or a Buff-coat, or a Presbyterian Jump; Vaux, is Vaux though he carry a Dark lanthorn and wear a Vizard.</p>
+            <p>
+               <hi>Object.</hi> Oh! but Conſcience, Conſcience is a tender thing;</p>
+            <p>
+               <hi>Anſ.</hi> I grant it, Conſcience is a tender thing, and a Devilliſh hard thing, as any thing in the World: The Holy Ghoſt compares it to the hardeſt things in the World, to the Adamant ſtone;
+<note place="margin">Zich. 7 12</note> what hard<g ref="char:EOLhyphen"/>er than the Adamant, or the neather Mill-ſtone? Why, Conſcience is harder; and feels no more,
+<note place="margin">1 Tim. 4.1, 2.</note> relents no more than if it were fear<g ref="char:EOLhyphen"/>ed with a hot Iron; 1. <hi>Tim.</hi> 4.2. And who are they that carry theſe ſeared Conſciences? that can ſwallow Oath upon Oath, Kill, and Rob, Plunder, and Steal, Sequeſter and Behead, and ſtill their Conſciences blunk no more than a piece of Braſs? Why, the ſame Apoſtle tells us, they are ſuch as ſhall appear in the latter days, that (in the Spirit of Foppery) ſhall depart from the Faith, giving heed to ſeducing Spirits and Doctrines of Devils. 1 <hi>Tim.</hi> 4.1. And (in the Spirit of Popery) <hi>Forbidding to Marry, and command<g ref="char:EOLhyphen"/>ing to abſtain from meats,</hi> &amp;c. 1. <hi>Tim.</hi> 4.3.</p>
+            <p>I tell you nothing herein but plain Scripture truth's, eaſily apply<g ref="char:EOLhyphen"/>ed, and yet I am ſenſible it is like to coſt me dear:</p>
+            <p>This Spirit of Popery and Foppery that I have rais'd and diſco<g ref="char:EOLhyphen"/>ver'd and ſhown to you this day, is a fierce Devilliſh Bloody Spirit; 'tis eaſily rais'd, but hard to allay; two Arch-biſhops one of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> the other of <hi>Scotland,</hi> irritated this Spirit, but this Fierce and Bloody Spirit fell upon them and Kill'd and Murther'd them; ma<g ref="char:EOLhyphen"/>ny thouſand ſuch Bloody Inſtances, there are, oh! this Spirit has Talons ſharp and Keen, I know it experimentally, nor durſt I pro<g ref="char:EOLhyphen"/>voke it, as I have done, but that I truſt in God through Jeſus Chriſt, being as willing to ſuffer (as they are to make me ſuffer) in ſo good Cauſe?</p>
+            <p>
+               <hi>Object.</hi> But ſome may ſay, we are bound to help and Obey the Sovereign Magiſtrate againſt our Conſciences? Or, when he Perſe<g ref="char:EOLhyphen"/>cutes men for their Conſciences, are we bound to help him, and is this help, the help of the Lord?</p>
+            <p>
+               <hi>Anſ.</hi> To which I anſwer, firſt, that no man on Earth can meddle
+<pb n="28" facs="tcp:56298:19"/>with mens Conſciences; I'le think in my Conſcience what I liſt, and be of what Opinion I liſt, and none upon Earth can hurt me for the ſame, though never ſo flagitious: 'Tis Gods Prerogative alone to be the only Searcher, as well as Converter of Hearts and Conſciences; For man ſees only the outward Appearance, but the Lord Vieweth the Heart or Conſcience.</p>
+            <p>And as the Magiſtrate cannot, ſo he does not pretend to meddle with mens Conſciences; if Two Robbers, or Two Murderers come to be tryed before a Judge, the one Robber is perhaps a Leveller, or a Covenanter, and thinks in his Conſcience he may take the Goods of a Rich man, or a Lord, eſpecially of a Prelate, or Spiri<g ref="char:EOLhyphen"/>tual Lord, till he has pull'd him down, nay pull'd him up, Root and Branch, as he has Sworne, in his ſolemn League and Covenant, till he has at leaſt Rob'd him, Plunder'd and Sequeſtred him of his Eſtate, ſo that he has rais'd his own equal and Level with him: The other Robber is a down-right Thief, and never aggravates his Crime, with Hypocriſie; but both are Convicted of the Felony; Does the Judge, or can the Judge ſearch into the Heart and Con<g ref="char:EOLhyphen"/>ſcience of the Men, and dive to find whether it be their Conſcience or Religion to Rob or Steal; be their Conſciences what they will, he is not concern'd, but finding them Malefactors, and Tranſgreſſors of the Law, he Condemnes the Godly Thief, and the Ungodly Thief to the ſame Gallows.</p>
+            <p>Yet how gently, how favorably, and Religiouſly has our Laws provided for tender and diſſenting Conſciences and Religions.</p>
+            <p>Men may Preach that will, when they will, what they will, and where they will at this day in <hi>England,</hi> provided they do not Ran<g ref="char:EOLhyphen"/>devouz above Five ſtrangers to the Conventicle, leaſt they Fight the Neighbor-hood with their Old tricks of making a Long Prayer and a long Sermon, the Prologue of ſome enſuing miſchief: And alſo provided the Non-conformiſt Preacher, do not Hold Forth within Five Miles of the Pariſh he Deſerted (I had almoſt ſaid Deluded) and alſo, not within Five Miles of a City or Town-Corporate.</p>
+            <p>How would the Apoſtles have Bleſt God for this Liberty, if they might but have Preacht from Houſe to Houſe, they would have Bleſt God and the Magiſtrate for the Grace and Favor.</p>
+            <p>But our Spirits of Foppery will not be Fob'd off ſo, they muſt and will have Numbers, Glory in their Numbers, brave the Magiſtrate,
+<pb n="29" facs="tcp:56298:19"/>and face him and dare him with their Numbers, as if they were ready to come to the Poll with him, and count, whether more People come from the Church on a Lords-day, or from the Meet<g ref="char:EOLhyphen"/>ing, vying for multitude, eſpecially if the weaker Veſſels, the Veſ<g ref="char:EOLhyphen"/>ſels of Frailty will but paſs Muſter.</p>
+            <p>Poor Baſhful tender Hearts and tender Conſciences! As if a Holder-forth cannot Preach Chriſt in the Wild of <hi>Kent,</hi> as in the Throngs and Crowds of a City or Corporation; Well, the Magi<g ref="char:EOLhyphen"/>ſtrates ſurely do well enough know their meanings, and what they would be at. And ſuch a Diſcourſe as this, and ſuch a Text as this, can no where be ſo properly or ſo well Improv'd, as in this Aſſem<g ref="char:EOLhyphen"/>bly, the moſt Honorable, and moſt conſiderable of this greateſt and moſt Glorious City, of the whole Kingdom the great Hinge of Peace and War.</p>
+            <p>Thoſe Preachers are like <hi>Jobs</hi> Comforters, <hi>Job</hi> 13.4. either <hi>For<g ref="char:EOLhyphen"/>gers of Lyes,</hi> or <hi>Phyſicians of no value,</hi> that do not handle, or do not handle to purpoſe this Diſtemper. What diſquiets your ſleeps but Fears of Diſturbances from the Spirit of Popery, and the Spirit of Foppery: I know not which is worſt, they are both Bloody and Dangerous, the former by Plotting, but Bleſſed be God their Plots come to nothing; the latter by Plotting and Acting too, God knows, not to mention the Defolation, the Bondage, the Tyranny and op<g ref="char:EOLhyphen"/>preſſion this City groan'd under for ſo many years, under ſo many Maſters, and different Tyrants, Three or Four ſeveral ones in a year ſometimes, before His Majeſties Happy Reſtauration; but, even ſince, though the Papiſts might Plot Rebellion and Treaſon, yet the Phanaticks have not only plotted, but twice been up in Armes, which the Papiſts never were, twice I ſay in Armes, and Open Field Fights, in <hi>Scotland;</hi> where our Miſeries were firſt brooded and begun their Riſe; but Bleſſed be God, as ſoon Defeated, which was Gods goodneſs more than our Deſerts; no Thanks though to the Coventiclers and Field-meeters, they ſhow'd their good will and their good Religion, and their tender Conſciences in the Interim; oh true Church Militant here upon Earth!</p>
+            <p>Why ſhould Miniſters make wild and randome diſcourſes in the Pulpit and but beat the air, applying remedies to diſtempers that the City and Kingdom are not eſpecially plagu'd with; alas! Fa<g ref="char:EOLhyphen"/>ction, and Foppery, and Popery, are the great diſeaſe, of the
+<pb n="30" facs="tcp:56298:20"/>Kingdom, with which it now, at this day, as well as of a long time, it has been vext, and griev'd, <hi>hic ſeca, hic ure,</hi> here make applica<g ref="char:EOLhyphen"/>tions; otherwiſe we Preachers are like thoſe the Apoſtle ſpeaks of 2. <hi>Theſ.</hi> 3.11. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Working not at all to the purpoſe but buſie to no purpoſe.</p>
+            <p>What? ſhall Jeſuits dare to venture their lives to come to per<g ref="char:EOLhyphen"/>vert our Nation, in the Spirit of Popery, and ſhall Fanaticks dare and brave the Magiſtrate to his Face, in publick, in the Cities, in the greateſt City of the Nation, and all this with an Impudent Fore<g ref="char:EOLhyphen"/>head, like the Whore in the <hi>Proverbs,</hi> wiping the mouth and ſaying they have done no wickedneſs, and all this in contempt, nay, in defyance of all Law and Authority; and ſhall no Man dare to ſay and ſpeak publickly what they dare do publickly? Is it no ſin, no crime, no ſhame for them preſumptuouſly and with a High Hand and a Brazen Face to tranſgreſs the Laws; and is he fit to be a Mi<g ref="char:EOLhyphen"/>niſter of God and the King, that has neither honeſty nor courage to Check and Rebuke it?</p>
+            <p>The great and good Emperor <hi>Conſtantine</hi> the firſt Chriſtian Empe<g ref="char:EOLhyphen"/>ror took another courſe with Factious Coventicles.
+<note place="margin">
+                  <hi>Euſeb. de vit conſt.</hi>
+               </note> He prohibited them, by Edict and Proclamation, ſee the Proclamation and Edict at large in <hi>Euſeb. de vit. conſtant.</hi>
+               <note place="margin">Theod. l. 1. c. 19.</note> He Burnt their Books and pro<g ref="char:EOLhyphen"/>ſcribed the Authors and Abettors, to uſe his own words, <hi>Peſtium il<g ref="char:EOLhyphen"/>larum audacia miniſtri Dei, hoc eſt, meâ Executione coercebitur.</hi> Their Plaguy Impudence ſhall be reſtrained by the Authority of the Mi<g ref="char:EOLhyphen"/>niſter of God, that is, my ſelf, <hi>&amp;c.</hi> that good Emperor. Thoſe bold peſtilent fellows, that dare offend in defyance of all Authority, I'le make bold to puniſh their Fool hardineſs by my Authority.</p>
+            <p>A Speech as pious as Princely, and a pious Example to Princes. For ancient and modern experience has taught, that faction (like a Top) never goes well but when under the laſh, and well whip't.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Therefore obſtinate and prating Fanaticks, or Seducers ſaith St. <hi>Paul</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſaith St. <hi>Paul,</hi> whoſe Mouthes muſt be ſtopped, <hi>oportet os obturare;</hi> it is very fit they ſhould be ſtopped. Why? (it follows,) becauſe they ſubvert whole Houſes, teaching things that they ought not for fil<g ref="char:EOLhyphen"/>thy <hi>Lucres</hi> ſake.</p>
+            <p>When the People had got a new Religion but a falſe one, King <hi>Joſiah</hi> puts it down, and is commended for it. 2. <hi>Kings.</hi> 23. from
+<pb n="31" facs="tcp:56298:20"/>the 4. verſe to the 14. verſe. The ſame did King <hi>Hezekiah,</hi> 2. <hi>Kings</hi> 18.3, 4, 5, 6, 7. The firſt Law of <hi>Theodoſius</hi> that good Empe<g ref="char:EOLhyphen"/>ror in his Law Book is <hi>de ſacrâ Trinitate quid credendum.</hi>
+               <note place="margin">
+                  <hi>Theod lib. legum.</hi>
+               </note>
+            </p>
+            <p>A Lawful King may not only <hi>imperata facere,</hi> but <hi>imperare faci<g ref="char:EOLhyphen"/>enda;</hi> though I know the Learned <hi>Grotius</hi> ſcruples this latter, but he was a Hollander.</p>
+            <p>By this Regal Supremacy <hi>Solomon</hi> depoſed <hi>Abiathar</hi> the Arch<g ref="char:EOLhyphen"/>Biſhop, becauſe he ſided with the Rebels.
+<note place="margin">1 Kings 2.27.</note> 
+               <hi>Conſtantine</hi> did the like to <hi>Vigelius,</hi> and <hi>Juſtinian</hi> to <hi>Silverius, Otho</hi> the Emperor ejected Pope <hi>John,</hi> 12. for his Necromancy and Wickedneſs.</p>
+            <p>'Tis <hi>Chryſoſtom</hi>'s Paraphraſe on <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>Rom.</hi> 13.1. Let every Soul be ſubject to the Higher Powers, whether Apoſtle, Evangeliſt, Paſtor or Teacher, Pope or Biſhop, Presbyter or Presbyterian, they muſt needs be ſubject and that for Conſcience-ſake; if they have a<g ref="char:EOLhyphen"/>ny Conſcience; any Conſcience unſeared,
+<note place="margin">Rom. 13 5 <hi>Vid Chryſ Hom</hi> 3. <hi>ad Antioch.</hi>
+               </note> any Conſcience not hard<g ref="char:EOLhyphen"/>ned. To whom aſſents <hi>Theodoret, Theophylact, Oecumenius</hi> and all that are not poſſes't with the evil Spirit (to keep to my old terms) of Popery or Foppery.</p>
+            <p>King <hi>Joſiah</hi> came not with Cap in hand to the High-prieſt,
+<note place="margin">2 King. 23.4.</note> but commanded him to reform this and that.</p>
+            <p>
+               <hi>Nefas eſt in dubium deducere ejus poteſtatem cui omnium gubcrnatio ſuperno conſtat delegata Judicio,</hi> ſaith the <hi>6th. Toletan</hi> Counſel, ſpeak<g ref="char:EOLhyphen"/>ing of the undoubted right of King <hi>Chintellanus.</hi>
+            </p>
+            <p>The four firſt General Counſels were called by Emperors not by Popes,
+<note place="margin">
+                  <hi>Socrat l.</hi> 5 <hi>in proem.</hi>
+               </note> nor the Clergy.</p>
+            <p>Pope <hi>Leo</hi> petitions the Emperor to call a Counſel in <hi>Italy</hi> and he call'd it at <hi>Epheſus. Supplicationi noſtrae dignetur Imperator annuere.</hi>
+               <note place="margin">
+                  <hi>Lev. Epiſt.</hi> 9.24.26.</note> Let the Emperor vouchſafe an Ear and hearken to the requeſt of his humble Petitioner.</p>
+            <p>But many years after the Canon of Pope <hi>Boniface</hi> runs a ſtile and Language more Magiſterical, Dictator like, <hi>Dicimus, Definimus,
+<note place="margin">
+                     <hi>De majori<g ref="char:EOLhyphen"/>tat. in gloſ<g ref="char:EOLhyphen"/>ſâ.</hi>
+                  </note> pronunciamus eſſe de neceſſitate ſalutis omm humanae creaturae ſubeſſe Ro<g ref="char:EOLhyphen"/>mano Pontifici.</hi>
+            </p>
+            <p>We ſay it, we decree and pronounce it altogether neceſſary for all Mankind to be ſubject to the Pope of <hi>Rome</hi> in pain of Damnation.</p>
+            <p>Obſerve (by the way) the difference betwixt the Popes old and new ſtyle. For till a Thouſand years after Chriſt, no Pope was ever ſo audacious as to claim or uſurp Supremacy over Kings and Emperors.</p>
+            <pb n="32" facs="tcp:56298:21"/>
+            <p> So that the Pope <hi>in ordine ad ſpiritualia,</hi> and the presbyterian <hi>ribus Chriſti</hi> hookes in all Dominion; Kings will have a good ſhare left between them, but Pride and Covetouſneſs taught theſe Sons of Perdition theſe Innovations and Uſurpations.</p>
+            <p>For Prieſts and Biſhops themſelves however they pretend the de<g ref="char:EOLhyphen"/>rivation of their Office from Chriſt, yet have the liberty of the open Adminiſtration thereof from the Civil Authority alone and Laws of the Land.</p>
+            <p>
+               <hi>Object.</hi> But ſuppoſe the Civil Authority will not be ſo civil to us to grant us this liberty, is not this Perſecution? what ſhall we do in this caſe?</p>
+            <p>
+               <hi>Anſ.</hi> In ſuch a Caſe obey our Saviour's Command and take his advice <hi>Mat.</hi> 10.23. <hi>When they Perſecute you in one City, Fly to ano<g ref="char:EOLhyphen"/>ther,</hi> and in one Country, Fly to another Country.</p>
+            <p>Every good Chriſtian, every tender conſcience will do it; but the Pa<g ref="char:EOLhyphen"/>piſts and Fanaticks and Non-conformiſts ſcorn the motion; flye, ſay they, what fly from our dear proſelytes, fly from our Dayly-bread, fly from our flocks and our herds, they ſcorn it, they'le ſooner fly in the Magiſtrates Face, they are good Chriſtians the while.</p>
+            <p>St. <hi>Paul</hi> thought himſelf happy that he could fly, though he ven<g ref="char:EOLhyphen"/>tur'd a Limb by Flying, being let down in a Basket over the City Wall, and ſo eſcaped their Hands.</p>
+            <p>
+               <hi>Obj.</hi> But we live not under Pagan but Chriſtian Magiſtrates, and therefore ſhould expect better things of them.</p>
+            <p>
+               <hi>Anſ.</hi> I grant it, and ſo we do, Bleſſed be God, any man may in <hi>England</hi> be as good a Chriſtian as he will, and inſtead of Perſecu<g ref="char:EOLhyphen"/>tion for the ſame, have encouragement from the King and his Laws: But woful experience has taught not to truſt with too much Power Canters and Hypocrites, Juglers and Diſſenters; no Nation in the World but endeavors to maintain its own being, its own Laws and Conſtitutions from the Plots and Conſpiracies of ſuch as always Watch to defame, diſparage, contemn, circumvent and undermine it; eſpecially to ſuch as have bid defyance to a good Conſcience, for a good and conſcientious Chriſtian dares not diſobey our Savi<g ref="char:EOLhyphen"/>ors Command, but if he be perſecuted in one Country, he will, he muſt, he ought to fly to another; and in the Interim if he cannot Fly, willingly to ſuffer for Chriſt; and joy and glory therein, as the Apoſtles did, and not whine, mutiny and complain, as Fanaticks
+<pb n="33" facs="tcp:56298:21"/>do. Alas! the Men do not believe what they would make others believe, that woe be to them if they do not Preach the Goſpel; if they did, they would Preach it in <hi>India,</hi> in <hi>Turky,</hi> in <hi>Perſia,</hi> the World is wide, and the Converting of a Turk has a better Reward than the perverting of one that is a Chriſtian already.</p>
+            <p>
+               <hi>Cicero</hi> indeed holds it to be Hereſie to differ or diſſent from the Religion of a Man's Country; and the King of <hi>Morocco</hi> anſwered the Ambaſſadors of King <hi>John</hi> of <hi>England,</hi> requeſting to know how His Majeſty liked St. <hi>Paul</hi>'s Epiſtles which he had lately read, with a Proteſtation, that were he to chuſe a Religion, he would be a Chriſtian. But he held it abominable not to live and dye in the Re<g ref="char:EOLhyphen"/>ligion received from his Fore-fathers, and his Country.</p>
+            <p>But theſe were Infidels, and to be condemned by us Chriſtians, who are taught to call no Man Maſter, nor no Man Father, or <hi>Rabbi</hi> upon Earth, that is, not <hi>jurare in verba Magiſtri,</hi> but to give a reaſon of the Faith and hope that is in us, though the ſaid <hi>Cice<g ref="char:EOLhyphen"/>ro</hi> and the Infidel King ſpoke (like as they were) very Wiſe-men and great States-men.</p>
+            <p>But when through Gods great Mercy we are happy in being born in a Country Beautified with the beſt Religion and the beſt Laws, nothing but the ſaid Spirit of Popery or Foppery can make any Man a Non-conformiſt.</p>
+            <p>Our Bleſſed Saviour, though he was Lord of Heaven and Earth, and alſo poor and penny leſs, yet when tribute was demanded of him, (rather than he would offend the Law of the Land he liv'd in) did a Miracle to get Money to pay his Aſſeſſment.</p>
+            <p>St. <hi>Paul</hi> upon his Tryal when he was Indicted before <hi>Feſtus</hi> by the <hi>Jews,</hi> who laid many grievance complaints againſt him, he clears himſelf by Pleading not Guilty, not by demurring to the Juriſdicti<g ref="char:EOLhyphen"/>on of the Court and Laws of the Land,
+<note place="margin">Acts 25.28.</note> and yet they were Heathen Laws, but Pleads not Guilty and Juſtifies that neither againſt the Law of the <hi>Jews,</hi> nor againſt the Temple, (which yet was Super<g ref="char:EOLhyphen"/>ſtitious) nor yet againſt <hi>Caeſar,</hi> (though their Conqueror and Inva<g ref="char:EOLhyphen"/>der) had he offended any thing all; And <hi>Acts,</hi> 28.17. In theſe words, clears himſelf namely, <hi>I have committed nothing againſt the People, or cuſtomes of our Fathers.</hi>
+            </p>
+            <p>I wonder by what Rule, by what Pattern a Non-Conformiſt walks, whilſt he will neither coppy after Chriſt, nor St. <hi>Paul.</hi>
+            </p>
+            <pb n="34" facs="tcp:56298:22"/>
+            <p> Surely no opinion is ſo wild and extravagant, but will find ſome Fools ſo wicked as to follow it, though it ruin them. I read of a Sect called <hi>Caynites,</hi> becauſe they praiſed <hi>Cain</hi> in Murdering his Bro<g ref="char:EOLhyphen"/>ther; others that have commended <hi>Corah, Dathan</hi> and <hi>Abiram,</hi> as ſtout Independents and Libertines, that would not be controul'd with never a <hi>Moſes</hi> or <hi>Aaron</hi> of them all; nay, I read of one <hi>Bruno</hi> that writ an Oration in Commendation of the Devil, and his Luciferian Pride.</p>
+            <p>Oh liberty! liberty! is a ſweet thing, ſay ſome, the very Birds when caged had rather live at all adventure and perhaps ſtarve, then be coup't up, with never ſo much Plenty; oh, (ſay they) li<g ref="char:EOLhyphen"/>berty of Conſcience to believe what we liſt, and ſay what we liſt, and do what we lift, is a very precious enjoyment. Happy are the People that are in ſuch caſe, like the <hi>Guiana-Indians, ſine Lege, ſine Rege.</hi>
+            </p>
+            <p>I can tell you of a time and a Country in Holy Scripture, where there was juſt ſuch a time of Liberty. And yet they had a King, the good King <hi>Aſa,</hi> but of little benefit to the People, becauſe they had a great mind to this ſame liberty, and to live as they liſt and lawleſs.</p>
+            <p>Now for a long ſeaſon <hi>Iſrael</hi> hath been without the true God (no matter for that ſaith the Atheiſt) and without a teaching Prieſt (all the better ſaith the Papiſt and Fanatick) and without Law (all the better (ſaith the Libertine.)</p>
+            <p>Here was a time to ſome Men's wiſh, and was it not a happy time? Read that in the 5. verſe. And in thoſe times there was no peace to him that went out, or to him that came in, but great vexations were upon all the Inhabitants of the Countries, and Na<g ref="char:EOLhyphen"/>tion was deſtroyed of Nation, and City of City; for God did vex them with all adverſity.</p>
+            <p>And 'tis Impoſſible, it ſhould be otherwiſe; for there was no Law, no Yoak, every Man was a Son of <hi>Belial,</hi> (in Engliſh) a Son un<g ref="char:EOLhyphen"/>yoak't, unbridled, unreſtrained, his luſts had their full Scope. If any Man luſted after his Neighbors Wife, his Neighbors Daughter, his Neighbors Houſe, his Neighbors Land, it was but cutting his Throat, and the buſineſs was done; till another ſtronger then he, or many others combin'd ſerv'd the Murderer in his kind, in the like Kind; till another or others did the like for them; and ſo for want of Law,
+<pb n="35" facs="tcp:56298:22"/>luſt was a law and revenge was a Law, and Ambition and Cove<g ref="char:EOLhyphen"/>touſneſs hurryed Men Captive to confuſion and ruin, for want of a Righteous Law and Yoak to reſtrain and protect them.</p>
+            <p>No wonder then that the Text ſays in thoſe times, there was no peace to him that went out or to him that came in, but great vexa<g ref="char:EOLhyphen"/>tions were upon all the Inhabitants, man againſt man, and City a<g ref="char:EOLhyphen"/>gainſt City; for God did vex them (and they vext one another) with all Adverſity.</p>
+            <p>And this is the fruit of liberty, liberty! But underſtand a little, ye brutiſh among the People <hi>Pſalm.</hi> 94.8. <hi>And ye Fools? when will ye be Wiſe?</hi> Never, (alas!) never till taught (too late) by the Fools Miſtreſs woful experience.</p>
+            <p>And if Men ſhould have but (for one day) the Tryal of an In<g ref="char:EOLhyphen"/>ter regnum or Interval of Government (as the <hi>Turks</hi> uſually have at the Death of an Emperor,) and that every Man has liberty, they that wiſh for it, would find it the moſt diſmal and Tragical day, for Rapines and Maſſacres that ever they had, if happily it prove not their Laſt Day.</p>
+            <p>So Fatal it is to want Government, ſo Fatal to <hi>England</hi> to want Kingly Government, and ſo Fatal to Rebel's by Fighting againſt it, to Fight againſt God; and therefore do juſtly incurr the Curſe of God, as Curſed <hi>Meroz,</hi> diſloyal <hi>Meroz,</hi> in this Text. Whence I con<g ref="char:EOLhyphen"/>clude, that as he that will not venture his Body, can never be Va<g ref="char:EOLhyphen"/>liant, and he that will not venture his Soul, can never be Rich, ſo he that will not venture both Body, Soul and Eſtate, can never be a Rebel.</p>
+            <p>There is but one Queſtion more to be Anſwered, and then I have done: And that is,</p>
+            <p>Q. 4. <hi>Why the Angel of the Lord does Curſe at this Rate?</hi>
+            </p>
+            <p>Surely the Debaucht, and prophane Ranters of this Age does not from this Scripture learn to Curſe and Damme, after the Example of the Angel of the Lord here, and yet the Lawfulneſs of Curſing is more plainly prov'd, than the Lawfulneſs of Rebellion, from this Text.</p>
+            <p>And though it be a Devilliſh thing to Curſe and Damme, as well as to Rebel, yet our Debauches ſeldom aggravate their ſins by add<g ref="char:EOLhyphen"/>ing Hypocriſie to them, and the Cloak of Religion, the Common habit of Rebels in our Age: Yet both of them are alike in ſinning
+<pb n="36" facs="tcp:56298:23"/>impudently, with a High hand and a Brazen Face: Do they Bluſh when they Swear, and Curſe and Damme? And are Men aſham'd, when by ſtubbornneſs and Nonconformity they dare Confront, as well as Tranſgreſs the Laws?</p>
+            <p>
+               <hi>He that hides his Sin ſhall not Proſper,</hi> faith <hi>Solomon;</hi> Well, this (I'le ſay) for both the ſaid Malignants, both the bold Curſers, and the bold Conventiclers, they are ſo far from hiding their ſin, that they boaſt of it, and Glory in it; The one by Curſing, Swearing and Damming, hop<gap reason="illegible: faint" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>s to be accounted a Daring, Valiant, Modiſh Gen tleman. The Angel Curſed <hi>Meroz,</hi> but this Fool dares Curſe him<g ref="char:EOLhyphen"/>ſelf, he dare pray to God to Damme him, and ſeldom do theſe-Davils Incarnate put up any other prayer to God, but—God Damme them.</p>
+            <p>Devils Incarnate did I ſay? Alas, that ſpeaks them not enough, theſe dregs of Humanity are worſe than Devils, for the Devil did pray in St.
+<note place="margin">Luk. 8.28.</note> 
+               <hi>Lukes</hi> Goſpel to our Saviour, ſaying, <hi>I beſeech thee, tor<g ref="char:EOLhyphen"/>ment me not:</hi> But theſe worſer kind of Devils or Demonaicks, pray quite contrary, praying at every word, God, I beſeech thee tor<g ref="char:EOLhyphen"/>ment me, or, God Damme me.</p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>pon me be thy Curſe my Son,</hi> ſayes a Raſh Woman in Scripture; But that any Man ſhould ſay—Upon me let my own Curſe come, is no where to be learnt but from Hell, the Devil, and the Damned Spirits.</p>
+            <p>God Grant, that every one of us may hence Learn ſo to ſet a Watch before the Door of our Mouths, that we may truly ſay with Holy <hi>Job,
+<note place="margin">Job. 31.30.</note> Neither have I ſuffered my Soul to Sin, by wiſhing a Curſe on another Mans Soul,</hi> much leſs upon our own Soul.</p>
+            <p>We read indeed of ſome Devilliſh Confederates, that made a ſo<g ref="char:EOLhyphen"/>lemn League and Covenant,
+<note place="margin">Acts 23.</note> and bound themſelves under a grievous Curſe to kill St. <hi>Paul;</hi> But never until this unparallel'd Age of pro<g ref="char:EOLhyphen"/>phaneneſs, that any did bind themſelves under a great Curſe, to kill their own Souls Eternally, and be Damn'd.</p>
+            <p>'Twas <hi>Balacks</hi> policy to hire <hi>Balaam</hi> to Curſe, (<hi>Come Curſe me</hi> Jacob) his Enemy; but 'tis theſe mens policies and all their piety, to Curſe themſelves, are their own Enemy: The Devil prays they may be Damn'd, ſo pray they: Herein ſeeming to tranſcend the Blaſphemy of thoſe in the Prophet <hi>Iſaiah,</hi>
+               <note place="margin">Iſaiah. 8.21.</note> that Curſt their King and their God; And except they Repent, they ſhall with horror and
+<pb n="37" facs="tcp:56298:23"/>aſtoniſhment hear our Saviour Eccho to them; <hi>Go, ye Curſed into everlaſting Burnings, prepared for the Devil and his Angels.</hi>
+            </p>
+            <p>They have often, very often pray'd and petition'd Heaven, that they might be Damn'd, their petition will be anſwered with a <hi>Fiat,</hi> according to your dayly prayer, <hi>Amen,</hi> So be it. <hi>For them that Honor God, God will Honor, but thoſe that deſpiſe him,</hi> and all Modeſty,
+<note place="margin">1. Sam. 2.30.</note> all Religion, all Vertue, all that Good is, <hi>ſhall be lightly eſteemed.</hi>
+            </p>
+            <p>I know I am (and willingly I am) in ſome Tranſport to meet with this ſort of men, yet not at all out of my way: Only the Wonder in the Text is not yet taken away. For though the Devil and Devilliſh men will Swear and Curſe, yet, why ſhould the Angel of the Lord uſe his Mouth to this Hectoring Language? <hi>Though I ſpeak with the Tongue of Men or Angels,</hi> (faith the Apoſtle) <hi>Divelliſh Men and Devilliſh Angels have Tongues, Curſing Tongues, and Curſed Tongues;</hi> But why ſhould the Angel of the Lord Curſe?</p>
+            <p>
+               <hi>Anſ.</hi> Surely, not but upon ſome notorious and ſtrange occaſion, and for ſome Damnable and Notorious ſin, And what is that ſin? but Diſloyalty.</p>
+            <p>Many other Scriptures decry and Condemn Rebellion, a ſin of Commiſſion againſt the King: But this Text Curſes and Condemns Diſloyalty, which is only a ſin of Omiſſion, (not in acting againſt, but) in not acting for the Sovereign Magiſtrate. So earneſt is Heaven, not only to keep the Peace on Earth, but to help God, I mean (as the Text does) the Sovereign, Magiſtrate when oppreſt or in Jeopardy.</p>
+            <p>To ſit ſtill at ſuch a Time, or to be a Neuter, is Damnable and lyable to a Curſe, And why? Becauſe above all other Duties, peace is recommended in Holy Scripture, above all other Legacies, our Bleſſed Saviour Bequeath'd peace to his Diſciples and Followers, with a Bleſſing to the peace-maker and the peace-keeper; and a Curſe on him that breaks the peace. Many other are the Bleſſings of Man-kind, but peace includes them all; many are the Miſeries of Mankind, but War, Tumult and Rebellion includes them all, as being the Mother of Miſchief, including all Miſchief in the Belly of it. And therefore the worſt of men are thus paraphras'd by the Holy Ghoſt—<hi>The way of Peace have they not known, Thiev<gap reason="illegible: missing" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s, and Highway-men, Murtherers and Bandito's, are</hi> (no doubt) <hi>of the vileſt ſort of Wretches;</hi> but yet not ſo Vile nor Damnable as Curſed
+<pb n="38" facs="tcp:56298:24"/>and Tumultuous Rebels, the former being but Retail-Rogues, to thoſe that Murder and Plunder by Whole-ſale. Not that all Papiſts and Phanaticks have nothing but Miſchief and Blood in their Eye and Deſign; many of them are like thoſe Four hundred men that Followed <hi>Abſalom</hi> in their ſimplicity, but once engaged with him in Rebellion, there was no Retreating. Curſed, Curſed for ever let them be then, well may we ſay, who have ſeen the Villanies of Rebels acted under the Guize and Vizard of Religion, and Liberty.</p>
+            <p>Curſe them, I ſay, or, (not I ſo much) as the Angel of the Lord faith, yea, Curſe them bitterly, for their Diſſoyalty, that will not come to the help of the Chief Magiſtrate when in danger of Ene<g ref="char:EOLhyphen"/>mies, that will not come to the help of the King, <hi>the help of the Lord againſt the Mighty.</hi>
+            </p>
+            <p>And now I have done, And (I hope) I have done enough to make this Text ſpeak better <hi>Engliſh,</hi> then formerly, and beſpeak better <hi>Engliſh</hi> Subjects; though vile Hackney Tongues have abus'd this Text and their own Judgments in ſpight of all Sence, Gram<g ref="char:EOLhyphen"/>mar, and the Context, by wreſting the plain and eaſie ſence thereof, to Gull the Blockiſh <hi>Engliſh</hi> to their Deſtruction.</p>
+            <p>Bees ſuck Honey from the ſame Flowers whence Spiders ſuck their poyſon, And I doubt not but you will conclude with me, that in this Text (thus naturally now Explain'd) is verify'd <hi>Sampſon</hi>'s Riddle—<hi>Out of the Eater is come forth Meat,
+<note place="margin">Judg. 14.14.</note> and out of the Strong Sweetneſs.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
